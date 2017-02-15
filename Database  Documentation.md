@@ -16,10 +16,11 @@ The columns of primary importance in the data set are listed below:
 * Zip and Mail Code of the United States
 
 The complete data set can be obtained from DOE Global Energy Storage Database at `http://www.energystorageexchange.org`.
+It is possible to create subsets for the dataset for unit tests using integer or label based indexing in a python dataframe.
 
 The other dataset is of the **United States EPA** (Environmental Protection Agency).
 The data set roughly contains about **8505 rows and 120 columns**
-The **dimensionality**(the number of columns for a given data set) is **107 columns**.
+The **dimensionality**(the number of columns for a given data set) is **120 columns**.
 The columns of primary importance in the data set are listed below:
 
 * Plant name
@@ -35,3 +36,4 @@ The columns of primary importance in the data set are listed below:
 * Plant totals renewable generation %
 
 The link for the above dataset is `https://www.epa.gov/energy/emissions-generation-resource-integrated-database-egrid`
+It is possible to generate subsets for the dataset for unit tests by using integer or label based indexing in python
