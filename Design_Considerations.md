@@ -4,9 +4,9 @@
 1. User enters a zip code and receives data about the locally dominant forms of energy generation and storage
 2. User can choose to generate and display maps of energy generation or storage
 
-Components for both use cases: `user_interface`, `knn_generator`, `knn_predictor`  
+Components for both use cases: `user_interface`, `knn_generator`, `knn_predictor`, Tkinter (for GUI)  
 Components for use case 1 only: `zipcode_selector`, `zipcode_to_latlong`, `facility_lookup`, `state_lookup`  
-Components for use case 2 only: `map_selector`, `knn_mapper`, `data_mapper`, `matplotlib basemap toolkit`  
+Components for use case 2 only: `map_selector`, `knn_mapper`, `data_mapper`, Matplotlib basemap toolkit (for visualizing maps)  
 
 ### Diagram of primary interactions of components
 
@@ -25,7 +25,7 @@ Components for use case 2 only: `map_selector`, `knn_mapper`, `data_mapper`, `ma
 What it does: top-level component for both use cases, allows user to look up energy data by zip code or visualize maps of energy data  
 Inputs: user interaction including zip code entry and map selection  
 Outputs: display information about energy generation and storage in that zip code, or display map  
-Interactions: user interaction with `map_selector` or `zipcode_selector` results in display being created/returned
+Interactions: user interaction with `map_selector` or `zipcode_selector` results in display being created/returned, GUI constructed using [Tkinter](https://wiki.python.org/moin/TkInter)
 
 
 #### `zipcode_selector`
