@@ -1,0 +1,17 @@
+The data set roughly contains about **1629 rows and 107 columns**.
+The **dimensionality**(the number of columns for a given data set) is 107 columns.
+The columns of primary importance in the data set are listed below:
+
+
+* Project name
+* Technology
+* Technology type
+* Rated Power in kW
+* Duration
+* Status
+* Longitude and Longitude
+* City and State
+* Street Address of the Project
+* Zip and Mail Code of the United States
+
+The complete data set can be obtained from DOE Global Energy Storage Database at `http://www.energystorageexchange.org`.
