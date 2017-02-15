@@ -1,6 +1,6 @@
 The primary dataset is the information extracted for United States from **DOE Global Energy Storage Database**.
 The data set roughly contains about **1629 rows and 106 columns**.
-The **dimensionality**(usually, the number of columns for a given data set) is **106 columns**.
+The **dimensionality**(usually, the number of columns for a given data set) is **106**.
 The columns of primary importance in the data set are listed below:
 
 
@@ -20,7 +20,7 @@ It is possible to create subsets for the dataset for unit tests using integer or
 
 The other dataset is of the **United States EPA** (Environmental Protection Agency).
 The data set roughly contains about **8505 rows and 120 columns**
-The **dimensionality**(usually, the number of columns for a given data set) is **120 columns**.
+The **dimensionality**(usually, the number of columns for a given data set) is **120**.
 The columns of primary importance in the data set are listed below:
 
 * Plant name
