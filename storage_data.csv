@@ -1,0 +1,685 @@
+name,lat,lon,type2,type,power_kW,duration,status,usecase,city,state
+PG&E Advanced Underground Compressed Air Energy Storage (CAES),37.9175935,-121.1710389,Compressed Air Storage,Electro-mechanical,300000,10,Announced,Electric Energy Time Shift,San Joaquin County,California
+Next Gen CAES using Steel Piping - NYPA,40.7282239,-73.7948516,Compressed Air Storage,Electro-mechanical,9000,4.5,Announced,Black Start,Queens,New York
+Lake Elsinore Advanced Pumped Storage,33.6680772,-117.3272615,Closed-loop Pumped Hydro Storage,Pumped Hydro Storage,500000,12,Announced,Frequency Regulation,Lake Elsinore,California
+NYSEG Seneca/Watkins Glen CAES Project,42.415934,-76.896832,Compressed Air Storage,Electro-mechanical,0,n/a,Announced,Frequency Regulation,Reading,New York
+Con Edison/Eos Energy Storage Distributed Energy Storage Pilot,40.7143528,-74.0059731,Metal Air Battery,Electro-chemical,1000,6,Announced,Stationary Transmission/Distribution Upgrade Deferral,New York,New York
+Apex Bethel Energy Center,31.8354447,-95.8388504,Compressed Air Storage,Electro-mechanical,317000,96,Announced,Black Start,Tennessee Colony,Texas
+Eldorado Pumped Storage,36.0795613,-115.094045,Closed-loop Pumped Hydro Storage,Pumped Hydro Storage,1000000,10.33,Announced,Electric Supply Capacity,Clark County,Nevada
+Prineville Pumped Storage,44.0978126,-120.0963654,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,150000,8.2,Announced,Electric Supply Capacity,Crook County,Oregon
+Advanced Rail Energy Storage Nevada ,36.2082943,-115.9839147,Gravitational Storage,Electro-mechanical,50000,0.25,Announced,Electric Supply Reserve Capacity - Spinning,Pahrump,Nevada
+SolarCity / Tesla / Princeton Power Grid Services Project (Fremont Site 1),37.5482697,-121.9885719,Lithium-ion Battery,Electro-chemical,200,1,Announced,Electric Bill Management,Fremont,California
+SolarCity / Tesla / Princeton Power EV Charging Station (Fremont Site 2),37.5482697,-121.9885719,Lithium-ion Battery,Electro-chemical,30,1,Announced,Electric Bill Management,Fremont,California
+Silver Creek Pumped Storage Project,40.7564536,-76.1283713,Closed-loop Pumped Hydro Storage,Pumped Hydro Storage,300000,8,Announced,Renewables Energy Time Shift,Blythe Township,Pennsylvania
+Green Charge Networks GreenStation Announced 1,36.8177592,-119.8084436,Lithium-ion Battery,Electro-chemical,120,1,Announced,Electric Bill Management,Fresno,California
+Green Charge Networks GreenStation Announced 2,36.7213819,-119.8059627,Lithium-ion Battery,Electro-chemical,60,1,Announced,Electric Bill Management,Fresno,California
+Green Charge Networks GreenStation Announced 3,36.7670924,-119.8041469,Lithium-ion Battery,Electro-chemical,60,1,Announced,Electric Bill Management,Fresno,California
+Green Charge Networks GreenStation Announced 4,36.8178199,-119.7721898,Lithium-ion Battery,Electro-chemical,60,1,Announced,Electric Bill Management,Fresno,California
+Green Charge Networks GreenStation Announced 5,36.8037593,-119.8625109,Lithium-ion Battery,Electro-chemical,180,1,Announced,Electric Bill Management,Fresno,California
+Green Charge Networks GreenStation Announced 6,36.854763,-119.714756,Lithium-ion Battery,Electro-chemical,200,2,Announced,Electric Bill Management,Clovis,California
+Green Charge Networks GreenStation Announced 7,36.8239356,-119.6977203,Lithium-ion Battery,Electro-chemical,60,1,Announced,Electric Bill Management,Clovis,California
+Green Charge Networks GreenStation Announced 8,36.7995122,-119.642463,Lithium-ion Battery,Electro-chemical,60,1,Announced,Electric Bill Management,Clovis,California
+Green Charge Networks GreenStation Announced 9,36.81711,-119.681621,Lithium-ion Battery,Electro-chemical,200,2,Announced,Electric Bill Management,Clovis,California
+Green Charge Networks GreenStation Announced 10,36.8901155,-119.7366748,Lithium-ion Battery,Electro-chemical,200,2,Announced,Electric Bill Management,Fresno,California
+Green Charge Networks GreenStation Announced 11,36.8629759,-119.7656335,Lithium-ion Battery,Electro-chemical,60,1,Announced,Electric Bill Management,Fresno,California
+Green Charge Networks GreenStation Announced 13,37.72485,-122.398679,Lithium-ion Battery,Electro-chemical,1000,2,Announced,Electric Bill Management,San Francisco,California
+Green Charge Networks GreenStation Announced 14,33.9751217,-118.0346006,Lithium-ion Battery,Electro-chemical,60,2,Announced,Electric Bill Management,Whittier,California
+Green Charge Networks GreenStation Announced 15,34.2773843,-119.2306844,Lithium-ion Battery,Electro-chemical,200,2,Announced,Electric Bill Management,Ventura,California
+Green Charge Networks GreenStation Announced 16,34.1631687,-119.159133,Lithium-ion Battery,Electro-chemical,200,2,Announced,Electric Bill Management,Oxnard,California
+Green Charge Networks GreenStation Announced 17,34.285558,-118.8820414,Lithium-ion Battery,Electro-chemical,400,2,Announced,Electric Bill Management,Moorpark,California
+Green Charge Networks GreenStation Announced 18,32.7156372,-117.1692648,Lithium-ion Battery,Electro-chemical,90,2,Announced,Electric Bill Management,San Diego,California
+Green Charge Networks GreenStation Announced 19,32.753413,-117.129548,Lithium-ion Battery,Electro-chemical,60,2,Announced,Electric Bill Management,San Diego,California
+Green Charge Networks GreenStation Announced 20,33.020912,-117.072525,Lithium-ion Battery,Electro-chemical,60,2,Announced,Electric Bill Management,San Diego,California
+Green Charge Networks GreenStation Announced 21,32.80726,-117.1165767,Lithium-ion Battery,Electro-chemical,60,2,Announced,Electric Bill Management,San Diego,California
+Green Charge Networks GreenStation Announced 22,33.9765093,-117.5575915,Lithium-ion Battery,Electro-chemical,30,2,Announced,Electric Bill Management,Mira Loma,California
+Green Charge Networks GreenStation Announced 23,34.188353,-119.222103,Lithium-ion Battery,Electro-chemical,30,2,Announced,Electric Bill Management,Oxnard,California
+Green Charge Networks GreenStation Announced 24,32.994222,-117.254548,Lithium-ion Battery,Electro-chemical,60,2,Announced,Electric Bill Management,Solana Beach,California
+Green Charge Networks GreenStation Announced 25,36.9859976,-121.9635026,Lithium-ion Battery,Electro-chemical,30,2,Announced,Electric Bill Management,Soquel,California
+Green Charge Networks GreenStation Announced 26,34.018956,-118.033517,Lithium-ion Battery,Electro-chemical,200,2,Announced,Electric Bill Management,Whittier,California
+Green Charge Networks GreenStation Announced 27,33.7430594,-117.0316,Lithium-ion Battery,Electro-chemical,60,2,Announced,Electric Bill Management,Hemet,California
+Green Charge Networks GreenStation Announced 28,34.1296772,-118.0743144,Lithium-ion Battery,Electro-chemical,60,2,Announced,Electric Bill Management,San Gabriel,California
+Green Charge Networks GreenStation Announced 29,33.6733029,-117.956291,Lithium-ion Battery,Electro-chemical,90,2,Announced,Electric Bill Management,Huntington Beach,California
+Green Charge Networks GreenStation Announced 30,34.0858748,-117.2595152,Lithium-ion Battery,Electro-chemical,400,2,Announced,Electric Bill Management,San Bernardino,California
+Green Charge Networks GreenStation Announced 31,37.492297,-122.2244538,Lithium-ion Battery,Electro-chemical,90,2,Announced,Electric Bill Management,Redwood City,California
+Green Charge Networks GreenStation Announced 33,32.7185482,-117.1694859,Lithium-ion Battery,Electro-chemical,30,2,Announced,Electric Bill Management,San Diego,California
+Green Charge Networks GreenStation Announced 34,32.829709,-117.1324319,Lithium-ion Battery,Electro-chemical,60,2,Announced,Electric Bill Management,San Diego,California
+Oncor Battery Storage,32.7766642,-96.7969879,Lithium-ion Battery,Electro-chemical,250,3,Announced,Resiliency,Dallas,Texas
+SolarCity Walmart Solar Storage Projects California,37.5629917,-122.3255254,Lithium-ion Battery,Electro-chemical,200,2,Announced,Electric Bill Management with Renewables,San Mateo,California
+BMCC Urban Electric 100 kW New York,40.7127837,-74.0059413,Electro-chemical,Electro-chemical,100,n/a,Announced,Onsite Renewable Generation Shifting,New York City,New York
+Axion Solar Farm 9.1 MW Coatesville,41.0036719,-80.347009,Lead-acid Battery,Electro-chemical,9000,n/a,Announced,Frequency Regulation,New Castle,Pennsylvania
+UCSD SGIP PV Projects,32.8807318,-117.2401999,Lithium-ion Battery,Electro-chemical,730,0.5,Announced,Onsite Renewable Generation Shifting,La Jolla,California
+Riverside Public Utilities 5 MW Ice Energy Project,33.9533487,-117.3961564,Ice Thermal Storage,Thermal Storage,5000,6,Announced,Electric Energy Time Shift,Riverside,California
+Riverside Public Utilities 5 MW Ice Energy Project,33.9533487,-117.3961564,Ice Thermal Storage,Thermal Storage,5000,6,Announced,Electric Energy Time Shift,Riverside,California
+Livermore Valley Performing Arts Center 30 kW Imergy Flow Battery,37.680208,-121.7918985,Flow Battery,Electro-chemical,30,4,Announced,Electric Bill Management,Livermore Valley,California
+Dynapower Company HQ micro-grid,44.442312,-73.153902,Lithium-ion Battery,Electro-chemical,375,0.67,Announced,Microgrid Capability,South Burlington,Vermont
+"2 MW Potsdam, New York - Microgrid",44.6697805,-74.9813084,Electro-chemical,Electro-chemical,2000,n/a,Announced,Microgrid Capability,Potsdam,New York
+Hybrid Compressed Air Energy Storage and Thermal Energy Storage - UCLA - Southern California Edison,34.055103,-117.7499909,Compressed Air Storage,Electro-mechanical,0,n/a,Announced,Electric Energy Time Shift,Pomona,California
+"Red Hook (Brooklyn, NY) - NY Prize Microgrid",40.6772802,-74.0094471,Electro-chemical,Electro-chemical,10000,n/a,Announced,Electric Energy Time Shift,"Red Hook, Brooklyn",New York
+6 MW / 10 MWh Molokai Island Energy - Phase One,21.1443935,-157.0226297,Electro-chemical,Electro-chemical,6000,1.67,Announced,Microgrid Capability,Molokai,Hawaii
+Long Island Community Microgrid Project - 5 MW / 25 MWh,40.9634335,-72.1848009,Electro-chemical,Electro-chemical,5000,5,Announced,Grid-Connected Commercial (Reliability & Quality) ,East Hampton,New York
+Smart Energy 50 Home Pilot Project - SunSpec / SolarCity,36.778261,-119.4179324,Lithium-ion Battery,Electro-chemical,0,n/a,Announced,Demand Response,SCE Territory,California
+Emerald Lake State Park ,43.2808225,-73.0049379,Lithium-ion Battery,Electro-chemical,10,1,Announced,Electric Bill Management,East Dorset,Vermont
+"University of the Nations (Kona, Hawaii) - EnSync Energy (formerly ZBB Energy)",19.631841,-155.9863651,Electro-chemical,Electro-chemical,0,n/a,Announced,Microgrid Capability,Kailua-Kona,Hawaii
+Panasonic Enterprise Solutions Facility (Xcel Energy Storage),39.7392358,-104.990251,Electro-chemical,Electro-chemical,1000,2,Announced,Electric Bill Management,Denver,Colorado
+Stapleton Neighborhood Energy Storage (Xcel Energy),39.7780041,-104.9109103,Electro-chemical,Electro-chemical,0,n/a,Announced,Grid-Connected Residential (Reliability),Denver,Colorado
+500 kW Eugene Water & Electric Board (EWEB),44.0520691,-123.0867536,Electro-chemical,Electro-chemical,500,n/a,Announced,Microgrid Capability,Eugene,Oregon
+"Sullivan Water Treatment Plant (Cambridge, Massachusetts)",42.3829173,-71.1440328,Electro-chemical,Electro-chemical,0,n/a,Announced,Microgrid Capability,Cambridge,Massachusetts
+Taunton/Berkley Community Microgrid (MASS DOER Community Resiliency),41.8317418,-71.0854325,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Taunton/Berkley,Massachusetts
+Boston Community Centers (MASS DOER Community Resiliency),42.3600825,-71.0588801,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Boston,Massachusetts
+Northampton Fire Department HQ (MASS DOER Community Resiliency),42.3250896,-72.6412013,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Northampton,Massachusetts
+Medford Resiliency Project (MASS DOER Community Resiliency),42.4184296,-71.1061639,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Medford,Massachusetts
+Northampton Microgrid with Islandable PV (MASS DOER Community Resiliency),42.3250896,-72.6412013,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Northampton,Massachusetts
+Sterling Police and Communication Facility Microgrid (MASS DOER Community Resiliency),42.4374156,-71.7606293,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Sterling,Massachusetts
+Acton Critical Facilties Resiliency (MASS DOER Community Resiliency),42.4850931,-71.43284,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Acton,Massachusetts
+Amherst/Umass Microgrid (MASS DOER Community Resiliency),42.3942062,-72.5335154,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Amherst/Umass,Massachusetts
+Madison Park High School Shelter - Boston (MASS DOER Community Resiliency),42.3600825,-71.0588801,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Boston,Massachusetts
+Cambridge Rindge and Latin School (MASS DOER Community Resiliency),42.3744083,-71.1106136,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Cambridge,Massachusetts
+Lawrence Water Treatment Plant (MASS DOER Community Resiliency),42.6948584,-71.1797614,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Lawrence,Massachusetts
+Leverett Resiliency Project (MASS DOER Community Resiliency),42.4519581,-72.5011335,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Leverett,Massachusetts
+Falmouth High School (MASS DOER Community Resiliency),41.5900431,-70.6075906,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Falmouth,Massachusetts
+Lincoln/Wayland-MAPC TA Project (MASS DOER Community Resiliency),42.4217357,-71.2992993,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Lincoln/Wayland,Massachusetts
+Melrose Microgrid TA Project (MASS DOER Community Resiliency),42.4584292,-71.0661633,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Melrose,Massachusetts
+New Bedford Techincal Assistance Project (MASS DOER Community Resiliency),41.6362152,-70.934205,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,New Bedford,Massachusetts
+Newton Technical Assistance Project (MASS DOER Community Resiliency),42.3370413,-71.2092214,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Newton,Massachusetts
+Sandwich Technical Assistance Project (MASS DOER Community Resiliency),41.7589615,-70.4939317,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Sandwich,Massachusetts
+Saugus Technical Assistance Project (MASS DOER Community Resiliency),42.4651421,-71.0110473,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Saugus,Massachusetts
+Scituate Technical Assistance Project (MASS DOER Community Resiliency),42.195929,-70.7258633,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Scituate,Massachusetts
+Shirley Police Station Technical Assistance Project (MASS DOER Community Resiliency),42.5437035,-71.6495176,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Shirley,Massachusetts
+Somerville Department of Public Works Technical Assistance,42.3875968,-71.0994968,Lithium-ion Battery,Electro-chemical,1,n/a,Announced,Resiliency,Somerville,Massachusetts
+Entergy Solar-Plus-Storage Pilot Project,29.9510658,-90.0715323,Lithium-ion Battery,Electro-chemical,1000,0.5,Announced,Renewables Capacity Firming,New Orleans,Louisiana
+Comed-Bronzeville-Demo,39.7817213,-89.6501481,Flow Battery,Electro-chemical,1000,2,Announced,Microgrid Capability,Springfield,Illinois
+Axion Power International-Sharon-12.5 MW ,41.2331116,-80.4934035,Lead-acid Battery,Electro-chemical,12500,1,Announced,Frequency Regulation,Sharon,Pennsylvania
+Escondido School District-Tesla,33.1192068,-117.086421,Lithium-ion Battery,Electro-chemical,150,4.2,Announced,Electric Energy Time Shift,Escondido,California
+NYSERDA-EOS Microgrid,41.5964825,-73.91097,Metal Air Battery,Electro-chemical,250,4.3,Announced,Microgrid Capability,Wappingers Falls,New Tork
+Deepwater Wind-New York ,41.0359353,-71.9545146,Lithium-ion Battery,Electro-chemical,15000,4,Announced,Renewables Capacity Firming,Montauk,New York
+San Vicente Pumped Storage,35.5069662,-120.6709247,Closed-loop Pumped Hydro,Pumped Hydro Storage,500000,8,Announced,Grid-Connected Commercial (Reliability & Quality) ,San Vicente ,California
+Sunvault Energy-Edison Power- Delaware Fire Station,39.158168,-75.5243682,Lithium-ion Battery,Electro-chemical,600,0.5,Announced,Electric Bill Management with Renewables,Dover,Delaware
+Schneider Electric-Boston One,42.6583356,-71.1367953,Lithium-ion Battery,Electro-chemical,400,2.5,Announced,Electric Energy Time Shift,Andover,Massachusetts
+Younicos-OCI Solar Power-Austin,29.4241219,-98.4936282,Lithium-ion Battery,Electro-chemical,1000,4,Announced,Renewables Energy Time Shift,San Antonio,Texas
+Anderson Pumped Storage,42.9487655,-115.3016211,Closed-loop Pumped Hydro,Pumped Hydro Storage,80000,12,Announced,Electric Supply Capacity, Elmore County,Oregon
+Black Canyon Pumped Storage,41.8023171,-107.2398172,Pumped Hydro,Pumped Hydro Storage,1000000,11,Announced,Electric Supply Capacity,Carbon County,Nevada
+Rose Creek Pumped Storage,38.4343464,-118.4863963,Pumped Hydro,Pumped Hydro Storage,250000,12,Announced,Electric Supply Capacity,Mineral County,Nevada
+White Pine Pumped Storage,37.927351,-114.45312,Closed-loop Pumped Hydro,Pumped Hydro Storage,750000,12,Announced,Electric Supply Capacity,Ely County,Nevada
+Grossmont Union High School District ,32.7783843,-116.9883606,Electro-chemical,Electro-chemical,1850,4,Announced,Electric Bill Management,Grossmont,California
+Queens College-CUNY PV System,40.7127837,-74.0059413,Lithium-ion Battery,Electro-chemical,60,4,Announced,Electric Bill Management with Renewables,New York,New York
+Las Positas College EPIC Microgrid - Imergy / GELI,37.7108595,-121.8004765,Vanadium Redox Flow Battery,Electro-chemical,250,4,Announced,Electric Bill Management,Livermore,California
+"Lewes BPW / Alevo - 8 MW - (Lewes, Delaware)",38.7745565,-75.1393498,Electro-chemical,Electro-chemical,8000,0.5,Announced,Frequency Regulation,Lewes,Delaware
+Beverly Regional Cache Site (MASS DOER Community Resiliency),42.5878335,-70.9045107,Electro-chemical,Electro-chemical,39,2,Announced,Microgrid Capability,Beverly,Massachusetts
+Dennis-Yarmouth High School Regional Shelter (MASS DOER Community Resiliency),41.6775776,-70.1932971,Electro-chemical,Electro-chemical,512,1,Announced,Electric Bill Management,South Yarmouth,Massachusetts
+Greenfield High School (MASS DOER Community Resiliency),42.6065743,-72.5952285,Electro-chemical,Electro-chemical,129,2,Announced,Black Start,Greenfield,Massachusetts
+Holyoke Resiliency Facilities (MASS DOER Community Resiliency),42.2042586,-72.6162009,Electro-chemical,Electro-chemical,983,2,Announced,Microgrid Capability,Holyoke,Massachusetts
+Asheville Plant - Duke Energy,35.478166,-82.549154,Electro-chemical,Electro-chemical,5000,n/a,Announced,Demand Response,Arden,North Carolina
+Seattle City Light Microgrid,47.6062095,-122.3320708,Electro-chemical,Electro-chemical,0,n/a,Announced,Electric Energy Time Shift,Seattle,Washington
+Irvine Ranch Water District (IRWD) - AMS,33.6588951,-117.8282121,Electro-chemical,Electro-chemical,7,6.85,Announced,Demand Response,Irvine,California
+Nextera Wyman,43.8006208,-70.1867227,Electro-chemical,Electro-chemical,16200,0.5,Announced,Frequency Regulation,yarmouth,Maine
+Eagle Mountain Pumped Storage Project,33.7133313,-115.4004287,Closed-loop Pumped Hydro Storage,Pumped Hydro Storage,1300000,n/a,Contracted,Electric Energy Time Shift,Desert Center,California
+Ultralife SUNY Canton Wind Integration Demo,44.608012,-75.184657,Lithium-ion Battery,Electro-chemical,500,4,Contracted,Onsite Renewable Generation Shifting,Canton,New York
+Discovery at Spring Trails Residential Energy Storage,30.1200111,-95.3749799,Lithium-ion Battery,Electro-chemical,30,14,Contracted,Electric Bill Management,Spring,Texas
+"SDGE C1243 Ortega HWY, GRC ES Program Unit 6",33.5016932,-117.6625509,Lithium-ion Battery,Electro-chemical,1000,3,Contracted,Stationary Transmission/Distribution Upgrade Deferral,San Juan Capistrano,California
+"SDGE C75 Mt San Miguel, GRC ES Program Unit 7",32.8195577,-116.9615461,Lithium-ion Battery,Electro-chemical,1000,3,Contracted,Microgrid Capability,El Cajon,California
+Snohomish PUD - MESA 2,47.9789848,-122.2020794,Flow Battery,Electro-chemical,2000,4,Contracted,Electric Energy Time Shift,Everett,Washington
+PSE Storage Innovation Project 2,47.610377,-122.2006786,Lithium-ion Battery,Electro-chemical,2000,2.2,Contracted,Electric Energy Time Shift,Bellevue,Washington
+Clean Energy Storage: Berkes,37.931868,-121.6957863,Lithium-ion Battery,Electro-chemical,11,7,Contracted,Onsite Renewable Generation Shifting,Brentwood,California
+Clean Energy Storage: Golden Bridge Development,34.39,-117.403056,Lithium-ion Battery,Electro-chemical,5,3,Contracted,Onsite Renewable Generation Shifting,Oak Hills,California
+Clean Energy Storage: Dibene,36.988562,-121.8063418,Lithium-ion Battery,Electro-chemical,24,8,Contracted,Grid-Connected Residential (Reliability),Corralitos,California
+SCE Home Battery Pilot,34.0805651,-118.072846,Lithium-ion Battery,Electro-chemical,80,2.5,Contracted,Demand Response,Rosemead,California
+VYCON Lights-Out Data Center,31.9685988,-99.9018131,Flywheel,Electro-mechanical,8000,n/a,Contracted,Resiliency,Texas,Texas
+Adobe Baker and Hamilton Building Stem System,37.7717908,-122.4016701,Lithium-ion Battery,Electro-chemical,162,1.12,Contracted,Electric Bill Management,San Francisco,California
+Terra Verde/SolarCity - Burton School District Energy Storage & PV Project,36.06523,-119.0167679,Lithium-ion Battery,Electro-chemical,360,2,Contracted,Electric Bill Management with Renewables,Porterville,California
+AES Alamitos Energy Storage Array,33.7700504,-118.1937395,Electro-chemical,Electro-chemical,100000,4,Contracted,Electric Supply Capacity,Long Beach,California
+NRG Energy 0.5 MW,33.1580933,-117.3505939,Electro-chemical,Electro-chemical,500,4,Contracted,Electric Energy Time Shift,Carlsbad,California
+Ice Energy procurement from SCE's November 2014 LCR: 25.6 MW,34.0522342,-118.2436849,Ice Thermal Storage,Thermal Storage,25600,6,Contracted,Electric Bill Management,Los Angeles,California
+AMS 50 MW Hybrid-Electric Buildings,34.0522342,-118.2436849,Electro-chemical,Electro-chemical,50000,n/a,Contracted,Electric Energy Time Shift,Los Angeles,California
+Stem 85 MW Western Los Angeles Basin,34.0522342,-118.2436849,Electro-chemical,Electro-chemical,85000,n/a,Contracted,Electric Bill Management,Los Angeles,California
+Chugach Multi-Stage Energy Storage System (MS-ESS),61.1688233,-149.9106884,Flywheel,Electro-mechanical,320,0.8,Contracted,Frequency Regulation,Anchorage,Alaska
+GE and Con Edison 8 MWh,40.6804279,-122.3708419,Lithium-ion Battery,Electro-chemical,2000,4,Contracted,Electric Supply Reserve Capacity - Spinning,Central Valley,California
+"8 MWh Con Edison & GE - Central Valley, CA",40.6804279,-122.3708419,Lithium-ion Battery,Electro-chemical,2000,4,Contracted,Renewables Energy Time Shift,Central Valley ,California
+Glasgow Electric Plant Board - Sunverge 165 Home Pilot,36.9958839,-85.9119215,Lithium-ion Battery,Electro-chemical,990,1.92,Contracted,Electric Bill Management,Glasgow,Kentucky
+Kaua'i Dispatchable Solar Storage - 13 MW / 52MWh  - SolarCity,21.9661076,-159.5737912,Lithium-ion Battery,Electro-chemical,13000,4,Contracted,Electric Energy Time Shift,Kaua'i,Hawaii
+400 MW Gordon Butte Pumped Hydro,46.457695,-110.3140327,Closed-loop Pumped Hydro Storage,Pumped Hydro Storage,400000,n/a,Contracted,Frequency Regulation,Martinsdale,Montana
+500 kW / 800 kWh - Electrovaya Transportable Energy Storage,40.7127837,-74.0059413,Lithium-ion Battery,Electro-chemical,500,1.6,Contracted,On-Site Power,New York,New York
+1.5 MW - Austin Energy Kingsbury Substation,30.267153,-97.7430608,Lithium-ion Battery,Electro-chemical,1500,n/a,Contracted,Electric Energy Time Shift,Austin,Texas
+EPRI / SunEdison Net-Zero Home Pilot,34.06,-117.44,Lithium-ion Battery,Electro-chemical,0,n/a,Contracted,Electric Bill Management with Renewables,Fontana,California
+Inland Empire Utilities Agency (IEUA) - AMS,33.965929,-117.67482,Electro-chemical,Electro-chemical,3500,2,Contracted,Electric Bill Management,Chino,California
+20 MW / 80 MWh - Energy Nuevo - Amber Kinetics,36.6783938,-119.9277947,Flywheel,Electro-mechanical,20000,4,Contracted,Electric Energy Time Shift,Fresno,California
+10 MW - PG&E Molino Substation- Hecate Energy,38.4259473,-122.8320595,Electro-chemical,Electro-chemical,10000,2,Contracted,Stationary Transmission/Distribution Upgrade Deferral,Sebastapol,California
+Golden Hills - NextEra Energy,37.6818745,-121.7680088,Electro-chemical,Electro-chemical,30000,2,Contracted,Distribution upgrade due to wind,Livermore,California
+Kings County Energy Storage - PG&E Henrietta Substation,36.0988489,-119.8815203,Zinc Air Battery,Electro-chemical,10000,4,Contracted,Distribution upgrade due to solar,Kings County,California
+3 MW - PG&E Clarksville Substation- Western Grid,38.6779591,-121.1760583,Zinc Air Battery,Electro-chemical,3000,2,Contracted,Stationary Transmission/Distribution Upgrade Deferral,Folsom,California
+1 MW - PG&E Old Kearney Substation - Hecate Energy,36.6783938,-119.9277947,Electro-chemical,Electro-chemical,1000,2,Contracted,Stationary Transmission/Distribution Upgrade Deferral,Fresno,California
+PREPA Coto Laurel ESS,18.004089,-66.5842402,Electro-chemical,Electro-chemical,5500,n/a,Contracted,Frequency Regulation,Ponce,Puerto Rico
+"SDG&E / Hecate Energy Bancroft - (San Diego, CA)",32.715738,-117.1610838,Electro-chemical,Electro-chemical,20000,4,Contracted,Electric Energy Time Shift,San Diego,California
+Idaho National Laboratory - ViZn,43.519585,-112.046184,Electro-chemical,Electro-chemical,128,2.5,Contracted,Microgrid Capability,Idaho Falls,Idaho
+Tucson Electric Power (TEP) - NextEra,32.2217429,-110.926479,Electro-chemical,Electro-chemical,10000,0.5,Contracted,Demand Response,Tucson,Arizona
+University of Arizona Science and Technology Park  / TEP - E.ON,32.2217429,-110.926479,Electro-chemical,Electro-chemical,10000,0.5,Contracted,Demand Response,Tucson,Arizona 
+Connecticut Municipal Electric Energy Cooperative (CMEEC) - SolarCity / Brightfields Development,41.6032207,-73.087749,Electro-chemical,Electro-chemical,1500,4,Contracted,Electric Energy Time Shift,N/A,Connecticut
+California State University Dominguez Hills Campus - AMS,33.8624657,-118.2545425,Electro-chemical,Electro-chemical,750,6,Contracted,Electric Bill Management,Carson,California
+SDG&E Escondido Substation - AES,33.1192068,-117.086421,Electro-chemical,Electro-chemical,30000,4,Contracted,Electric Energy Time Shift,Escondido,California
+SDG&E El Cajon Substation - AES,32.7947731,-116.9625269,Electro-chemical,Electro-chemical,7500,4,Contracted,Electric Energy Time Shift,El Cajon,California
+Grand Johanna Aliso Canyon Energy Storage - SCE / Powin,33.691031,-117.833193,Lithium Iron Phosphate Battery,Electro-chemical,2000,4,Contracted,Electric Supply Capacity,Irvine,California
+Convergent 35 MW / 140 MWh - SCE,33.7174708,-117.8311428,Electro-chemical,Electro-chemical,35000,4,Contracted,Electric Supply Capacity,Orange County,California
+Aliso Canyon SCE Mira Loma Substation - Tesla,34.0074494,-117.5609574,Electro-chemical,Electro-chemical,20000,4,Contracted,Electric Supply Capacity,Ontario,California
+Modesto Irrigation District - Primus Power,37.6390972,-120.9968782,Flow Battery,Electro-chemical,28000,4,Offline/Under Repair,Renewables Capacity Firming,Modesto,California
+Thermalito Pumping - Generating Plant,39.5137752,-121.556359,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,120000,n/a,Offline/Under Repair,Electric Energy Time Shift,Oroville,California
+CALMAC Centex Building,32.7801399,-96.8004511,Ice Thermal Storage,Thermal Storage,205,6,Offline/Under Repair,Electric Bill Management,Dallas,Texas
+Palmdale Micro Grid Energy Storage Demonstration,34.5794343,-118.1164613,Electro-chemical Capacitor,Electro-chemical,450,n/a,Offline/Under Repair,Electric Energy Time Shift,Palmdale,California
+PREPA BESS 2,18.3978052,-66.0104825,Lead-acid Battery,Electro-chemical,20000,0.67,Offline/Under Repair,Electric Supply Reserve Capacity - Spinning,San Juan,Puerto Rico
+"Beacon Power - (Stephentown, NY) ",42.5539158,-73.3944466,Flywheel,Electro-mechanical,20000,0.25,Operational,Frequency Regulation,Stephentown,New York
+Gills Onions - Prudent Energy VRB-ESS,34.1908099,-119.1648775,Flow Battery,Electro-chemical,600,6,Operational,Electric Bill Management,Oxnard,California
+Bath County Pumped Storage Station - Dominion Generation / First Energy,38.198392,-79.8099851,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,3003000,10.3,Operational,Electric Energy Time Shift,"George Washington National Forest, Warm Springs",Virginia
+Kaheawa Wind Project - Younicos,20.7983626,-156.3319253,Lead-acid Battery,Electro-chemical,1500,0.25,Operational,Ramping ,Maui,Hawaii
+Tehachapi Wind Energy Storage Project - Southern California Edison,35.036143,-118.280659,Lithium-ion Battery,Electro-chemical,8000,4,Operational,Electric Supply Capacity,Tehachapi,California
+Notrees Battery Storage Project - Duke Energy,31.9819386,-102.6147715,Lead-acid Battery,Electro-chemical,36000,0.67,Operational,Electric Energy Time Shift,Goldsmith,Texas
+Redding Electric Utilities (Phase 1) - Ice Energy,40.5865396,-122.3916754,Ice Thermal Storage,Thermal Storage,1000,6,Operational,Electric Energy Time Shift,Redding,California
+ Anaheim Public Utility- Ice Energy,33.8352932,-117.9145036,Ice Thermal Storage,Thermal Storage,200,4.75,Operational,Electric Energy Time Shift,Anaheim,California
+ Pillar Mountain Wind Project - Xtreme Power,57.4912463,-153.495022,Lead-acid Battery,Electro-chemical,3000,0.25,Operational,Electric Supply Reserve Capacity - Spinning,Kodiak Island,Alaska
+National Grid Distributed Energy Storage Systems Demonstration - Vionx Energy,42.40843,-71.0536625,Flow Battery,Electro-chemical,500,6,Operational,Electric Energy Time Shift,Everett,Massachusetts
+Glendale Water and Power -  Ice Energy,34.1425078,-118.255075,Ice Thermal Storage,Thermal Storage,1500,6,Operational,Electric Energy Time Shift,Glendale,California
+Southern California Edison - HVAC Optimization Program,34.0805651,-118.072846,Ice Thermal Storage,Thermal Storage,750,6,Operational,Electric Bill Management,Rosemead ,California
+PNM Prosperity Energy Storage Project,34.986823,-106.6132321,Lead-acid Battery,Electro-chemical,500,4,Operational,Renewables Capacity Firming,Albuquerque,New Mexico
+XCEL MinnWind Wind-to-Battery Project - NGK,43.6541362,-96.2128071,Sodium based Battery,Electro-chemical,1000,7.2,Operational,Frequency Regulation,Luverne,Minnesota
+Battelle Memorial Institute Pacific Northwest Smart Grid Demonstration,44.9428975,-123.0350963,Lithium-ion Battery,Electro-chemical,5000,0.25,Operational,Electric Energy Time Shift,Salem,Oregon
+St. Kilian Parish and School,40.683741,-80.072446,Ice Thermal Storage,Thermal Storage,100,6,Operational,Electric Bill Management,Cranberry Township,Pennsylvania
+Lanai Sustainability Research / La Ola PV Farm - Xtreme Power,20.8165975,-156.9273193,Lead-acid Battery,Electro-chemical,1125,0.25,Operational,Frequency Regulation,Lanai,Hawaii
+Kauai Island Utility Cooperative - Xtreme Power,21.9066667,-159.4691667,Lead-acid Battery,Electro-chemical,1500,0.25,Operational,Electric Supply Reserve Capacity - Non-Spinning,Koloa,Hawaii
+Bethel Park High School,40.3362589,-80.0450687,Ice Thermal Storage,Thermal Storage,375,6,Operational,Electric Bill Management,Bethel Park,Pennsylvania
+Golden Valley Electric Association (GVEA) Battery Energy Storage System (BESS),64.8377778,-147.7163889,Nickel based Battery,Electro-chemical,27000,0.25,Operational,Electric Supply Reserve Capacity - Spinning,Fairbanks,Alaska
+Duquesne University,40.4359724,-79.9910907,Ice Thermal Storage,Thermal Storage,600,6,Operational,Electric Bill Management,Pittsburgh,Pennsylvania
+Olivenhain-Hodges Storage Project,33.12,-117.09,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,40000,6,Operational,Electric Energy Time Shift,Escondido,California
+State of North Carolina - DN Tanks,35.7749644,-78.6403675,Chilled Water Thermal Storage,Thermal Storage,2590,8,Operational,Electric Energy Time Shift,Raleigh,North Carolina
+ETT / AEP Presidio NAS Energy Storage System - NGK,29.5607383,-104.3721465,Sodium based Battery,Electro-chemical,4000,8,Operational,Electric Supply Capacity,Presidio,Texas
+University of Arizona - Calmac,32.237685,-110.951927,Ice Thermal Storage,Thermal Storage,3000,6,Operational,Electric Bill Management,Tucson,Arizona
+Los Angeles Community College District - Calmac,34.086772,-118.291731,Ice Thermal Storage,Thermal Storage,4620,6,Operational,Electric Bill Management,Los Angeles,California
+William & Flora Hewlett Foundation - Calmac,37.423912,-122.193597,Ice Thermal Storage,Thermal Storage,124,9,Operational,Electric Bill Management,Menlo Park,California
+EPCC Thermal Storage: Valle Verde,31.753527,-106.366913,Ice Thermal Storage,Thermal Storage,930,8,Operational,Electric Bill Management,El Paso,Texas
+El Capitan - Calmac,34.101323,-118.339741,Ice Thermal Storage,Thermal Storage,150,6,Operational,Electric Bill Management,Los Angeles,California
+Long Island Bus BESS,40.7267682,-73.6342954,Sodium based Battery,Electro-chemical,1000,6.5,Operational,Black Start,Garden City,New York
+Mission City Office Complex - Calmac,32.7832979,-117.1269331,Ice Thermal Storage,Thermal Storage,500,7,Operational,Electric Bill Management,San Diego,California
+Santa Rita Jail Smart Grid - Alameda County RDSI CERTS Microgrid Demonstration ,37.7176811,-121.8879609,Lithium-ion Battery,Electro-chemical,2000,2,Operational,Electric Bill Management,Dublin,California
+Fossil Ridge High School,40.512543,-105.019813,Ice Thermal Storage,Thermal Storage,200,8,Operational,Electric Bill Management,Fort Collins,Colorado
+Fort Sill Microgrid - EnSync (Formerly ZBB),34.6606037,-98.4046307,Flow Battery,Electro-chemical,250,2,Operational,Microgrid Capability,Fort Sill,Oklahoma
+Illinois Institute of Technology RDSI Perfect Power Demonstration - EnSync Energy (formerly ZBB),41.8343395,-87.6237866,Flow Battery,Electro-chemical,250,2,Operational,Black Start,Chicago,Illinois
+O-I World Headquarters,41.5285417,-83.647721,Ice Thermal Storage,Thermal Storage,250,12,Operational,Electric Bill Management,Perrysburg,Ohio
+Pualani Manor- EnSync Energy (formerly ZBB),21.32166,-157.864528,Flow Battery,Electro-chemical,60,2.5,Operational,Black Start,Honolulu,Hawaii
+St. Petersburg Solar Parks Project - EnSync Energy (formerly ZBB),27.7730556,-82.64,Flow Battery,Electro-chemical,25,2,Operational,Electric Bill Management with Renewables,St. Petersburg,Florida
+East Penn Manufacturing Co. Grid-Scale Energy Storage Demonstration,40.4776121,-75.7667739,Lead-acid Battery,Electro-chemical,3000,0.72,Operational,Frequency Regulation,Lyon Station,Pennsylvania
+University of Central Florida - DN Tanks,28.6004783,-81.2013732,Chilled Water Thermal Storage,Thermal Storage,3000,8,Operational,Electric Energy Time Shift,Orlando,Florida
+Penta Career Center Thermal Storage,41.5818,-83.572054,Ice Thermal Storage,Thermal Storage,750,16,Operational,Electric Bill Management,Perrysburg,Ohio
+LIRR Malverne WESS: Maxwell Technologies,40.6754071,-73.6692196,Electro-chemical Capacitor,Electro-chemical,1000,0.2,Operational,Transportation Services,Malverne,New York
+DTE Community Energy Storage for Grid Support - Monroe Community College CES Unit,41.916448,-83.466152,Lithium-ion Battery,Electro-chemical,500,0.5,Operational,Electric Bill Management with Renewables,Monroe,Michigan
+Metlakatla BESS,55.0845439,-131.582469,Lead-acid Battery,Electro-chemical,1000,1.4,Operational,Electric Supply Reserve Capacity - Spinning,Metlakatla,Alaska
+Cal Poly - Amonix / Greensmith Energy,34.0569172,-117.8217494,Lithium-ion Battery,Electro-chemical,75,2,Operational,Renewables Capacity Firming,Pomona,California
+SDG&E Century Park DESS - Greensmith Energy,32.8234495,-117.1430605,Lithium-ion Battery,Electro-chemical,50,1.67,Operational,Distribution upgrade due to solar,San Diego,California
+EPRI Energy Storage System Demonstration - BYD,35.9220262,-84.1421238,Lithium-ion Battery,Electro-chemical,50,0.92,Operational,Distribution upgrade due to solar,Knoxville,Tennessee
+EPRI Energy Storage System Demonstration - NEC,35.9220262,-84.1421238,Lithium-ion Battery,Electro-chemical,25,1.92,Operational,Distribution upgrade due to solar,Knoxville,Tennessee
+EPRI Energy Storage System Demonstration - Beckett Energy Systems,35.9220262,-84.1421238,Lithium-ion Battery,Electro-chemical,25,0.5,Operational,Distribution upgrade due to solar,Knoxville,Tennessee
+McIntosh CAES Plant,31.2572207,-88.0280479,Compressed Air Storage,Electro-mechanical,110000,26,Operational,Electric Energy Time Shift,McIntosh,Alabama
+Kaheawa Wind Power Project II - Younicos,20.7963889,-156.5141667,Lead-acid Battery,Electro-chemical,10000,0.75,Operational,Electric Supply Reserve Capacity - Spinning,Maalaea,Hawaii
+7-Eleven Distributed Energy Storage System (DESS) - ConEdison / Green Charge Networks,40.754233,-73.900612,Lithium-ion Battery,Electro-chemical,100,0.97,Operational,Electric Bill Management,Woodside,New York
+La Guardia Airport Avis Car Rental - Green Charge Networks,40.7758517,-73.8839579,Lithium-ion Battery,Electro-chemical,100,1.6,Operational,Electric Bill Management,Queens,New York
+SustainX Inc Isothermal Compressed Air Energy Storage,42.9006942,-70.8816111,Compressed Air Storage,Electro-mechanical,1500,1,Operational,Ramping ,Seabrook,New Hampshire
+Montezuma Canyon - Apollo Solar / Iron Edison,37.5333311,-109.2312242,Nickel based Battery,Electro-chemical,17,10,Operational,Distribution upgrade due to solar,Montezuma Canyon,Utah
+Las Cruces - Apollo Solar / Iron Edison,32.3199396,-106.7636538,Nickel based Battery,Electro-chemical,48,10,Operational,Electric Supply Capacity,Las Cruces,New Mexico
+Danbury Residence - Trace / Iron Edison,41.394817,-73.4540111,Nickel based Battery,Electro-chemical,20,10,Operational,Distribution upgrade due to solar,Danbury,Connecticut
+Nissan Technical Center North America,42.508645,-83.4109834,Ice Thermal Storage,Thermal Storage,1425,16,Operational,Electric Bill Management,Farmington Hills,Michigan
+JC Penney Headquarters - Calmac,33.0796578,-96.8321443,Ice Thermal Storage,Thermal Storage,4425,12,Operational,Electric Bill Management,Plano,Texas
+Underwriters Laboratories - Calmac,42.1455766,-87.8464909,Ice Thermal Storage,Thermal Storage,1250,14,Operational,Electric Bill Management,Northbrook,Illinois
+Delta College Thermal Storage - Calmac,43.5579516,-83.9860036,Ice Thermal Storage,Thermal Storage,2025,16,Operational,Electric Bill Management,University Center,Michigan
+AES Laurel Mountain,39.002039,-79.887705,Lithium-ion Battery,Electro-chemical,32000,0.25,Operational,Frequency Regulation,Elkins,West Virginia
+Dynapower Headquarters - Enersys,44.442312,-73.153902,Lead-acid Battery,Electro-chemical,250,4,Operational,Electric Bill Management,Burlington,Vermont
+Beacon Power 20 MW Flywheel Frequency Regulation Plant,40.9568399,-76.0275859,Flywheel,Electro-mechanical,20000,0.25,Operational,Frequency Regulation,Hazle Township,Pennsylvania
+AEP Charleston NaS Energy Storage Project,38.3498195,-81.6326234,Sodium based Battery,Electro-chemical,1200,6,Operational,Electric Energy Time Shift,Charleston,West Virginia
+John W. Keys III Pump-Generating Plant,47.953884,-118.989547,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,314000,80,Operational,Electric Energy Time Shift,Grand Coulee,Washington
+Castaic Pumped-Storage Plant,34.6548333,-118.7751843,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,1247000,10,Operational,Electric Energy Time Shift,Pyramid Lake,California
+Helms Pumped Hydro Storage Project,37.039152,-118.96373,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,1212000,n/a,Operational,Electric Energy Time Shift,Fresno County,California
+PG&E Vaca Battery Energy Storage Pilot Project,38.3565773,-121.9877444,Sodium based Battery,Electro-chemical,2000,7,Operational,Electric Energy Time Shift,Vacaville,California
+STMicroelectronics UPS System - S&C Electric,33.643684,-112.060672,Lead-acid Battery,Electro-chemical,10000,n/a,Operational,Grid-Connected Commercial (Reliability & Quality) ,Phoenix,Arizona
+Waiawa High PV Penetration Circuit,21.4389123,-158.0000565,Lithium-ion Battery,Electro-chemical,1000,0.25,Operational,Frequency Regulation,Oahu,Hawaii
+San Luis (William R. Gianelli) Pumped Storage Hydroelectric Powerplant,37.069105,-121.077373,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,424000,298,Operational,Electric Energy Time Shift,Gustine,California
+Vernon Battery Energy Storage System (BESS),34.007122,-118.1926828,Lead-acid Battery,Electro-chemical,5000,0.7,Operational,Electric Bill Management,Vernon,California
+Big Creek (John S. Eastwood) Pumped Storage,37.104114,-119.3176258,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,199800,17.67,Operational,Electric Energy Time Shift,Shaver Lake,California
+Beacon Smart Energy Matrix FESS,37.7799273,-121.9780153,Flywheel,Electro-mechanical,100,0.25,Operational,Frequency Regulation,San Ramon,California
+Marshall Steam Station Energy Storage Project,35.597325,-80.964854,Lithium-ion Battery,Electro-chemical,250,3,Operational,Electric Energy Time Shift,Sherrills Ford,North Carolina
+Altairnano-PJM Li-ion Battery Ancillary Services Demo,40.4776121,-75.7667739,Lithium-ion Battery,Electro-chemical,1000,0.25,Operational,Frequency Regulation,Lyons,Pennsylvania
+KPC&L Green Impact Zone SmartGrid ,39.0402879,-94.5710409,Lithium-ion Battery,Electro-chemical,1000,1,Operational,Distribution upgrade due to solar,Kansas City,Missouri
+Edward Hyatt (Oroville) Power Plant,39.5137752,-121.556359,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,819000,n/a,Operational,Electric Energy Time Shift,Oroville,California
+Mount Elbert Power Plant,39.094098,-106.352352,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,200000,12,Operational,Black Start,Leadville,Colorado
+Horse Mesa Pumped Hydro Storage,33.590733,-111.343789,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,97000,n/a,Operational,Electric Energy Time Shift,Apache Junction,Arizona
+Raccoon Mountain Pumped Storage Plant,35.0198163,-85.3688937,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,1652000,22,Operational,Electric Energy Time Shift,Chattanooga,Tennessee
+Lewiston Pump-Generating Plant,43.142984,-79.021806,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,240000,n/a,Operational,Electric Energy Time Shift,Lewiston,New York
+Ludington Pumped Storage,43.894481,-86.44311,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,1872000,8,Operational,Electric Energy Time Shift,Ludington,Michigan
+Northfield Mountain Pumped Storage Hydroelectricity Facility ,42.610827,-72.471313,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,1119000,7.58,Operational,Electric Energy Time Shift,Northfield,Massachusetts
+Muddy Run Pumped Hydro Storage,39.847457,-76.2906717,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,1070000,n/a,Operational,Electric Energy Time Shift,West Holtwood,Pennsylvania
+Bad Creek Pumped Hydro Storage,35.010984,-83.00986,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,1065000,24,Operational,Electric Energy Time Shift,Oconee County,South Carolina
+Jocassee Pumped Hydro Storage,34.960334,-82.916851,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,710000,n/a,Operational,Electric Energy Time Shift,Pickens County,South Carolina
+Bear Swamp Hydroelectric Power Station,42.687055,-72.961693,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,600000,5,Operational,Electric Energy Time Shift,Rowe,Massachusetts
+Fairfield Pumped Storage,34.2993741,-81.3069315,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,511200,6.97,Operational,Electric Energy Time Shift,Jenkinsville,South Carolina
+Yards Creek Pumped Storage,41.00095,-75.031705,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,400000,6,Operational,Electric Energy Time Shift,Blairstown,New Jersey
+Seneca Pumped Storage Generating Station,41.831299,-79.010186,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,440000,n/a,Operational,Electric Energy Time Shift,Mead Township,Pennsylvania
+Taum Sauk Hydroelectric Power Station,37.4537502,-90.8435728,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,440000,8,Operational,Electric Energy Time Shift,Lesterville,Missouri
+Richard B. Russell Pumped Storage,34.025195,-82.59467,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,600000,n/a,Operational,Electric Energy Time Shift,Richard B. Russell Lake,Georgia
+Cabin Creek Generating Station,39.7060984,-105.6975041,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,324000,4,Operational,Black Start,Georgetown,Colorado
+Salina Pumped Storage Project,36.26566,-95.10456,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,260000,n/a,Operational,Electric Energy Time Shift,Salina,Oklahoma
+Carters Dam Pumped Storage,34.7659145,-84.7699385,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,250000,n/a,Operational,Electric Energy Time Shift,Chatsworth,Georgia
+Smith Mountain Pumped Storage Project,37.0497134,-79.6393985,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,560000,n/a,Operational,Electric Energy Time Shift,Smith Mountain Lake,Virginia
+Wallace Dam Pumped Storage,33.350038,-83.157226,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,208000,n/a,Operational,Electric Energy Time Shift,Milledgeville,Georgia
+Clarence Cannon Dam Pumped Storage,39.524633,-91.643845,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,58000,n/a,Operational,Electric Energy Time Shift,Mark Twain Lake,Missouri
+Mormon Flat Pumped Hydro Storage,33.465908,-112.031859,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,50000,n/a,Operational,Electric Energy Time Shift,Tonto National Forest,Arizona
+New Waddell Dam Pumped Hydro Storage,33.2917968,-112.4291464,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,45000,n/a,Operational,Electric Energy Time Shift,Maricopa County,Arizona
+DeGray Lake Pumped Hydro Storage,34.213624,-93.110407,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,28000,n/a,Operational,Electric Energy Time Shift,DeGray Lake,Arkansas
+Blenheim-Gilboa Pumped Storage Power Project,42.442978,-74.448187,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,1160000,15,Operational,Electric Energy Time Shift,North Blenheim,New York
+CCET Technology Solutions for Wind Integration,33.5934104,-102.0291177,Lithium-ion Battery,Electro-chemical,1000,1,Operational,Electric Supply Reserve Capacity - Spinning,Lubbock,Texas
+New Belgium Brewery  - City of Fort Collins Utilities,40.593415,-105.066874,Ice Thermal Storage,Thermal Storage,135,6,Operational,Electric Bill Management,Fort Collins,Colorado
+Borrego Springs Microgrid - SDG&E ,33.2558717,-116.375012,Lithium-ion Battery,Electro-chemical,500,3,Operational,Load Following (Tertiary Balancing),Borrego Springs,California
+SDG&E Borrego Springs Microgrid Demonstration Project: Community Energy Storage,33.2558717,-116.375012,Lithium-ion Battery,Electro-chemical,75,2,Operational,Electric Energy Time Shift,Borrego Springs,California
+SDG&E Borrego Springs Microgrid Demonstration Project: Home Energy Storage,33.2558717,-116.375012,Lithium-ion Battery,Electro-chemical,24,2,Operational,Distribution upgrade due to solar,Borrego Springs,California
+University of Hawaii Smart Grid Regional and Energy Storage Demonstration Project (Maui Smart Grid),20.683746,-156.429947,Lithium-ion Battery,Electro-chemical,1000,1,Operational,Electric Energy Time Shift,Wailea,Hawaii
+Allegheny Power Demonstration Project (RDSI) - West Virginia Super Circuit,39.629526,-79.9558968,Lithium-ion Battery,Electro-chemical,24,2,Operational,Electric Bill Management with Renewables,Morgantown,West Virginia
+O'Neill Pump-Generating Plant,37.0582786,-120.8499151,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,25200,n/a,Operational,Electric Energy Time Shift,Los Banos,California
+Flatiron Powerplant,40.364905,-105.235797,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,8500,n/a,Operational,Electric Energy Time Shift,Loveland,Colorado
+McAlpine Circuit CES System,35.2270869,-80.8431267,Lithium-ion Battery,Electro-chemical,50,1,Operational,Electric Bill Management,Charlotte,North Carolina
+Rocky River Pumped Storage Plant,41.58258,-73.433801,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,29000,n/a,Operational,Electric Energy Time Shift,New Milford,Connecticut
+Anchorage Area Battery Energy Storage System,61.2163655,-149.8889459,Lithium-ion Battery,Electro-chemical,25000,0.57,Operational,Electric Energy Time Shift,Anchorage,Alaska
+AEP Milton NaS Battery Energy Storage System,38.4345321,-82.1323637,Sodium based Battery,Electro-chemical,2000,6,Operational,Electric Energy Time Shift,Milton,West Virginia
+AEP Churubusco NaS Battery Energy Storage System,41.2306034,-85.3194208,Sodium based Battery,Electro-chemical,2000,6,Operational,Transportable Transmission/Distribution Upgrade Deferral,Churubusco,Indiana
+AEP Bluffton NaS Energy Storage System,40.8953301,-83.8888288,Sodium based Battery,Electro-chemical,2000,6,Operational,Transportable Transmission/Distribution Upgrade Deferral,Bluffton,Ohio
+SCE Irvine Smart Grid Demonstration: RESU,33.6387024,-117.8370041,Lithium-ion Battery,Electro-chemical,56,2.5,Operational,Renewables Capacity Firming,Irvine,California
+HECO/Greensmith Energy Battery Energy Storage System,21.3069444,-157.8583333,Lithium-ion Battery,Electro-chemical,5,4,Operational,Onsite Renewable Generation Shifting,Honolulu,Hawaii
+ATK Launch Systems Microgrid CAES,41.665573,-112.435667,Compressed Air Storage,Electro-mechanical,80,0.75,Operational,Electric Bill Management,Promontory,Utah
+UNLV RDSI Demonstration Project,36.114646,-115.172816,Lithium-ion Battery,Electro-chemical,9,0.95,Operational,Electric Energy Time Shift,Las Vegas,Nevada
+UCSD BMW 2nd Life EV Energy Storage System,32.8769207,-117.2361478,Lithium-ion Battery,Electro-chemical,108,1.67,Operational,Electric Bill Management with Renewables,La Jolla,California
+UCSD - BYD Energy Storage System,32.8769207,-117.2361478,Lithium-ion Battery,Electro-chemical,2500,2,Operational,Electric Bill Management with Renewables,La Jolla,California
+SNOPUD MESA 1a Project,47.9366303,-122.2479417,Lithium-ion Battery,Electro-chemical,1000,0.5,Operational,Electric Energy Time Shift,Everett,Washington
+South Austin Recreational Center Distributed Energy Storage Pilot,30.241834,-97.76795,Ice Thermal Storage,Thermal Storage,15,4.67,Operational,Electric Bill Management,Austin,Texas
+Ice Energy Big Box Retailer Project,36.114646,-115.172816,Ice Thermal Storage,Thermal Storage,38,4.67,Operational,Electric Bill Management,Las Vegas,Nevada
+Ice Energy Storage at Staples Retailer,40.1421639,-74.2255465,Ice Thermal Storage,Thermal Storage,38,4.67,Operational,Electric Bill Management,Howell,New Jersey
+Axion PowerCube for PJM,41.0648451,-80.3624375,Lead-acid Battery,Electro-chemical,500,0.5,Operational,Frequency Regulation,New Castle,Pennsylvania
+Ice Energy Manufacturing Facility Project,40.5787485,-105.0049308,Ice Thermal Storage,Thermal Storage,24,6,Operational,Electric Bill Management,Fort Collins,Colorado
+Park Marina Building,40.582701,-122.370389,Ice Thermal Storage,Thermal Storage,132,6,Operational,Electric Bill Management,Redding,California
+Rocky Mountain Hydroelectric Plant,34.2828967,-85.2308414,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,1095000,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Floyd County,Georgia
+Encinitas Civic Center,33.044753,-117.267231,Ice Thermal Storage,Thermal Storage,75,6,Operational,Electric Bill Management,Encinitas,California
+Nordstrom (Ala Moana Center) - Calmac,21.2912881,-157.8429647,Ice Thermal Storage,Thermal Storage,1200,6,Operational,Electric Bill Management,Honolulu,Hawaii
+Shell Point Retirement Village,26.5156681,-81.9957138,Ice Thermal Storage,Thermal Storage,4800,6,Operational,Electric Bill Management,Fort Myers,Florida
+Cache Creek Casino,38.7342564,-122.1429357,Chilled Water Thermal Storage,Thermal Storage,1300,6,Operational,Electric Bill Management,Brooks,California
+VA Medical Center,32.694882,-96.789985,Chilled Water Thermal Storage,Thermal Storage,2300,8,Operational,Electric Bill Management,Dallas,Texas
+Lackland Air Force Base,29.38263,-98.6133217,Chilled Water Thermal Storage,Thermal Storage,580,8,Operational,Electric Bill Management,San Antonio,Texas
+Geisinger Health System,40.9678905,-76.6050616,Chilled Water Thermal Storage,Thermal Storage,700,8,Operational,Electric Bill Management,Danville,Pennsylvania
+University of Texas Pan-Am,26.3052059,-98.175972,Chilled Water Thermal Storage,Thermal Storage,875,8,Operational,Electric Bill Management,Edinburg,Texas
+Texas Instruments Manufacturing Plant,32.7801399,-96.8004511,Chilled Water Thermal Storage,Thermal Storage,6400,8,Operational,Electric Bill Management,Dallas,Texas
+Federal Government Facility Chilled Water TES,38.52245,-77.289687,Chilled Water Thermal Storage,Thermal Storage,274,2.5,Operational,Electric Bill Management,Quantico,Virginia
+American Online Data Center,38.8942786,-77.4310992,Chilled Water Thermal Storage,Thermal Storage,1500,2,Operational,Electric Bill Management,Chantilly,Virginia
+Thermal Storage at San Antonio International Airport,29.5280155,-98.4754012,Chilled Water Thermal Storage,Thermal Storage,422,8,Operational,Electric Bill Management,San Antonio,Texas
+GE Wind Durathon Battery Project ,31.6137467,-98.5721016,Sodium based Battery,Electro-chemical,300,4,Operational,Frequency Regulation,Tehachapi,Texas
+Auwahi Wind Farm ,20.7909697,-156.3269338,Lithium-ion Battery,Electro-chemical,11000,0.4,Operational,Ramping ,Kula,Hawaii
+Texas Dispatchable Wind,32.7189926,-102.6449101,Compressed Air Storage,Electro-mechanical,2000,250,Operational,Electric Supply Capacity,Seminole,Texas
+EaglePicher HQ PowerPyramid,37.0944308,-94.5279523,Lead-acid Battery,Electro-chemical,1000,2,Operational,Electric Bill Management,Joplin,Missouri
+SCE Irvine Smart Grid Demonstration: CES,33.6387024,-117.8370041,Lithium-ion Battery,Electro-chemical,25,2,Operational,Load Following (Tertiary Balancing),Irvine,California
+SCE Irvine Smart Grid Demonstration: Solar Car Charging Station,33.6839473,-117.7946942,Lithium-ion Battery,Electro-chemical,100,1,Operational,Electric Bill Management with Renewables,Irvine,California
+SCE Irvine Smart Grid Demonstration: Containerized Distributed Storage Unit,33.6588951,-117.8282121,Lithium-ion Battery,Electro-chemical,2000,0.25,Operational,Electric Energy Time Shift,Irvine,California
+TAS Thermal Storage with Combined-Cycle Cogeneration Plant,29.626104,-95.067727,Chilled Water Thermal Storage,Thermal Storage,5100,10,Operational,Electric Energy Time Shift,Pasadena,Texas
+"National Grid Distributed Energy Storage Systems Demonstration (Worcester, MA)",42.2625932,-71.8022934,Flow Battery,Electro-chemical,500,6,Operational,Electric Energy Time Shift,Worcester,Massachusetts
+McAlpine Energy Storage System - Duke Energy / BYD,35.0535496,-80.8211696,Lithium-ion Battery,Electro-chemical,200,2.5,Operational,Electric Energy Time Shift,Charlotte,North Carolina
+Clay Terrace Plug-In Ecosystem,39.978371,-86.1180435,Lithium-ion Battery,Electro-chemical,75,0.67,Operational,Electric Bill Management with Renewables,Carmel ,Indiana
+Benton PUD Battery Energy Storage,46.2112458,-119.1372338,Lead-acid Battery,Electro-chemical,10,4,Operational,Electric Energy Time Shift,Kennewick,Washington
+SMUD 2500 R St. Housing Development,38.5660192,-121.4770676,Lithium-ion Battery,Electro-chemical,153,2.58,Operational,Electric Bill Management with Renewables,Sacramento,California
+Power Station Generation Storage,39.952335,-75.163789,Chilled Water Thermal Storage,Thermal Storage,6000,8,Operational,Electric Energy Time Shift,Philadelphia,Pennsylvania
+Disney California Adventure,33.8153513,-117.9251185,Chilled Water Thermal Storage,Thermal Storage,2000,4,Operational,Electric Bill Management,Anaheim,California
+Solana Solar Generating Plant,32.918396,-112.972472,Molten Salt Thermal Storage,Thermal Storage,280000,6,Operational,Renewables Energy Time Shift,Gila Bend,Arizona
+TAS Texas Cooperative,33.218512,-98.1595613,Chilled Water Thermal Storage,Thermal Storage,90000,12,Operational,Electric Energy Time Shift,Jacksboro,Texas
+Crescent Dunes Solar Energy Project,38.237766,-117.382814,Molten Salt Thermal Storage,Thermal Storage,110000,10,Operational,Renewables Capacity Firming,Tonopah,Nevada
+Barclay Tower,40.7123202,-74.0088229,Lead-acid Battery,Electro-chemical,225,8.83,Operational,Electric Bill Management,New York,New York
+InterContinental Hotels Group Stem Energy Optimization System,37.7818037,-122.4047743,Lithium-ion Battery,Electro-chemical,15,1,Operational,Electric Bill Management,San Francisco,California
+UEP CCNY Demonstration,40.8195475,-73.9495176,Flow Battery,Electro-chemical,100,2,Operational,Electric Bill Management,New York,New York
+PG&E Yerba Buena Battery Energy Storage Pilot Project,37.304269,-121.754479,Sodium based Battery,Electro-chemical,4000,7,Operational,Electric Energy Time Shift,San Jose,California
+Peak Shaving Battery at BMW Technology,37.425832,-122.097974,Lithium-ion Battery,Electro-chemical,100,2.33,Operational,Demand Response,Mountain View,California
+CLPCCD - Utility Infrastructure Project,37.6396128,-122.1026487,Ice Thermal Storage,Thermal Storage,890,4.67,Operational,Electric Bill Management,Hayward,California
+AES Tait Battery Array,39.7256182,-84.2113632,Lithium-ion Battery,Electro-chemical,20000,n/a,Operational,Frequency Regulation,Moraine,Ohio
+Japan-US Collaborative Smart Grid Project,35.8783147,-106.3185697,Sodium based Battery,Electro-chemical,1000,6,Operational,Distribution upgrade due to solar,Los Alamos,New Mexico
+NEDO New Mexico Smart Grid Demonstration Project,35.8880796,-106.3069722,Lead-acid Battery,Electro-chemical,800,1,Operational,Renewables Capacity Firming,Los Alamos,New Mexico
+SkyGrid Energy,20.2388832,-155.8050118,Lithium-ion Battery,Electro-chemical,100,0.25,Operational,On-Site Power,North Kohala,Hawaii
+AEP Ohio gridSMART Demonstration Project,39.965144,-83.005961,Lithium-ion Battery,Electro-chemical,100,1,Operational,Electric Energy Time Shift,Columbus,Ohio
+Long Island Power Authority Long Island Smart Energy Corridor,40.7233004,-73.5935824,Lead-acid Battery,Electro-chemical,8,n/a,Operational,Electric Energy Time Shift,Uniondale,New York
+ConEdison Interoperability of Demand Response Resources: Thermal,40.7138275,-74.0131657,Ice Thermal Storage,Thermal Storage,1000,10,Operational,Electric Bill Management,New York,New York
+Pecan Street Project Inc. Energy Internet Demonstration,30.3952976,-97.7352087,Lithium-ion Battery,Electro-chemical,15,2.5,Operational,Electric Energy Time Shift,Austin,Texas
+Green Charge Networks Lithium Ion Distributed Energy Storage System at 7-Eleven,40.744869,-73.776886,Lithium-ion Battery,Electro-chemical,100,1,Operational,Electric Bill Management,Queens,New York
+San Diego Zoo Solar-to-EV Project,32.7360673,-117.1492696,Lithium-ion Battery,Electro-chemical,100,1,Operational,Grid-Connected Residential (Reliability),San Diego,California
+PDE Smart Microgrid System,33.979751,-118.144693,Lithium-ion Battery,Electro-chemical,90,0.33,Operational,Electric Bill Management with Renewables,Commerce,California
+SCPPA Thermal Energy Storage Program ,34.1177879,-117.8226163,Ice Thermal Storage,Thermal Storage,2427,6,Operational,Electric Energy Time Shift,Glendora,California
+DOD Marine Corps Air Station Miramar Microgrid Energy Storage System,32.8701459,-117.1441227,Flow Battery,Electro-chemical,250,4,Operational,Black Start,San Diego,California
+Grid on Wheels,39.6777096,-75.7542004,Lithium-ion Battery,Electro-chemical,360,2.5,Operational,Electric Supply Reserve Capacity - Spinning,Newark,Delaware
+1500 Walnut,39.948958,-75.166447,Ice Thermal Storage,Thermal Storage,210,6,Operational,Electric Bill Management,Philadelphia,Pennsylvania
+AllCell Chicago EV Charging Station,42.0450722,-87.6876969,Lithium-ion Battery,Electro-chemical,40,n/a,Operational,On-Site Power,Evanston,Illinois
+Rice Solar Energy Project,34.072968,-114.813884,Molten Salt Thermal Storage,Thermal Storage,150000,8,Operational,Renewables Capacity Firming,Rice,California
+Nevada Solar One Solar Power Plant,35.800172,-114.981259,Thermal Storage,Thermal Storage,72000,0.5,Operational,Renewables Capacity Firming,Boulder City,Nevada
+Fort Hunter Liggett Battery Storage Project,36.0079494,-121.235173,Lithium-ion Battery,Electro-chemical,1000,1,Operational,Onsite Renewable Generation Shifting,Fort Hunter Liggett,California
+Pennsylvania ATLAS (Aggregated Transactive Load Asset),40.9995386,-75.1812913,Heat Thermal Storage,Thermal Storage,2010,5,Operational,Frequency Regulation,East Stroudsburg,Pennsylvania
+VCharge Concord Pilot,42.4603719,-71.3489484,Heat Thermal Storage,Thermal Storage,175,5,Operational,Frequency Regulation,Concord,Massachusetts
+VCharge Maine ATLAS (Aggregated Transactive Load Asset),43.661471,-70.2553259,Heat Thermal Storage,Thermal Storage,300,5,Operational,Frequency Regulation,Portland,Maine
+Wright-Hennepin Solar Community,45.0880899,-93.7201203,Lead-acid Battery,Electro-chemical,37,2,Operational,Electric Bill Management,Rockford,Minnesota
+Austin Utilities Energy Storage Pilot,43.6691809,-92.9697639,Lead-acid Battery,Electro-chemical,37,2,Operational,Electric Bill Management,Austin,Minnesota
+Shakopee Public Utilities- Environmental Learning Center,44.7973962,-93.5272861,Lead-acid Battery,Electro-chemical,9,2,Operational,Renewables Capacity Firming,Shakopee,Minnesota
+Green Mountain Power Ice Energy Project 1 ,43.6076674,-72.9803603,Ice Thermal Storage,Thermal Storage,45,4.67,Operational,Electric Bill Management,Rutland,Vermont
+LA Metro Wayside Flywheel Energy Storage System,34.05637,-118.274883,Flywheel,Electro-mechanical,2000,n/a,Operational,Transportation Services,Los Angeles,California
+Schooner America 2.0 Electric Populsion,40.7481266,-74.0083151,Lithium-ion Battery,Electro-chemical,250,2.5,Operational,On-Site Power,New York,New York
+Carthage Water & Electric Plant,37.1620004,-94.3188513,Lead-acid Battery,Electro-chemical,100,2.27,Operational,Distribution upgrade due to solar,Carthage,Missouri
+NRECA/CRN - Distributed Energy Storage Research Project (Federated),43.6346107,-94.9952283,Lead-acid Battery,Electro-chemical,5,2,Operational,Electric Energy Time Shift,Jackson ,Minnesota
+Duke Energy- Residential,35.0535496,-80.8211696,Lithium-ion Battery,Electro-chemical,6,1.83,Operational,Grid-Connected Residential (Reliability),Charlotte,North Carolina
+NRECA/CRN - Distributed Energy Storage Research Project (Meeker),45.1385702,-94.5289455,Lead-acid Battery,Electro-chemical,5,2,Operational,Electric Energy Time Shift,Litchfield,Minnesota
+NRECA/CRN: Distributed Energy Storage Research Project (Minnesota Valley Electric),44.6671365,-93.6133863,Lead-acid Battery,Electro-chemical,32,2,Operational,Electric Energy Time Shift,Jordan,Minnesota
+NRECA/CRN - Distributed Energy Storage Research Project (Wright-Hennepin),45.0927233,-93.7465301,Lead-acid Battery,Electro-chemical,64,2,Operational,Electric Energy Time Shift,Rockford,Minnesota
+Holaniku at Keahole Point,19.7267618,-156.0618602,Heat Thermal Storage,Thermal Storage,2000,2,Operational,Renewables Capacity Firming,Keahole Point,Hawaii
+Nevada Energy Battery Storage Project (Villa Trieste),36.144997,-115.228407,Lithium-ion Battery,Electro-chemical,5,2,Operational,Electric Energy Time Shift,Las Vegas,Nevada
+Discovery Science Center Durathon Battery,33.7702538,-117.8678641,Sodium based Battery,Electro-chemical,100,5,Operational,Electric Bill Management,Santa Ana,California
+Arista Durathon Battery Project,43.191445,-77.660869,Sodium based Battery,Electro-chemical,100,2,Operational,Electric Bill Management,Rochester,New York
+29 Palms Durathon Battery Project,33.8302961,-116.5452921,Sodium based Battery,Electro-chemical,500,2,Operational,Black Start,Palm Springs,California
+Hiwassee Dam,35.1134803,-84.059029,Open-loop Pumped Hydro Storage,Pumped Hydro Storage,185000,n/a,Operational,Electric Energy Time Shift,Cherokee County,North Carolina
+Nevada Solar One R&D Project,35.800172,-114.981259,Heat Thermal Storage,Thermal Storage,100,1,Operational,Renewables Capacity Firming,Boulder City,Nevada
+PV and EV Charging Systems at Sporting Venue ,33.4483771,-112.0740373,Flow Battery,Electro-chemical,25,2,Operational,Onsite Renewable Generation Shifting,Phoenix,Arizona
+Joint Base Pearl Harbor Hickam (JBPHH) U.S. Military Base,21.3069444,-157.8583333,Flow Battery,Electro-chemical,125,3.33,Operational,Black Start,Honolulu ,Hawaii
+VISA (Data Processing Center),39.0437567,-77.4874416,Flow Battery,Electro-chemical,25,2,Operational,On-Site Power,Ashburn,Virginia
+Clean Energy Storage: Advanced Energy Storage Research & Innovation Center,47.5877433,-122.2413464,Lithium-ion Battery,Electro-chemical,30,12,Operational,Onsite Renewable Generation Shifting,Renton,Washington
+Green Charge Networks (Yonkers Site 1),40.95984,-73.8801301,Lithium-ion Battery,Electro-chemical,96,1,Operational,Electric Bill Management,Yonkers,New York
+Carlsbad 7-Eleven Green Charge Networks Greenstation,33.121631,-117.318757,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Carlsbad,California
+Green Charge Networks Greenstation (Norwalk Site 1),33.9165615,-118.0885033,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Norwalk,California
+Green Charge Networks Greenstation (San Diego Site 1),32.816842,-117.155162,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,San Diego,California
+Green Charge Networks Greenstation (San Diego Site 2),32.8058569,-117.218589,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,San Diego,California
+CSU Fullerton Green Charge Networks Greenstation,33.8800938,-117.8854977,Lithium-ion Battery,Electro-chemical,480,1,Operational,Electric Bill Management with Renewables,Fullerton,California
+Lancaster MOAH Green Charge Networks Greenstation,34.6981824,-118.141858,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Lancaster,California
+Green Charge Networks Greenstation (Playa Vista Site 1),33.9744806,-118.4177707,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Playa Vista,California
+Green Charge Networks Greenstation (Aliso Viejo Site 1),33.5670813,-117.7272567,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management with Renewables,Aliso Viejo,California
+Redwood City Parking Garage Green Charge Networks Greenstation,37.4875504,-122.2272435,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Redwood City,California
+Redwood City Public Library Green Charge Networks Greenstation,37.5303628,-122.2578679,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Redwood City,California
+Alcatraz Island Microgrid ,37.8269775,-122.4229555,Lead-acid Battery,Electro-chemical,400,4.75,Operational,Electric Supply Reserve Capacity - Non-Spinning,San Francisco,California
+Xcel SolarTAC CES Test,39.755625,-104.620034,Sodium based Battery,Electro-chemical,25,2,Operational,Grid-Connected Residential (Reliability),Watkins,Colorado
+SMUD Solar EV Charge Port,38.553074,-121.434074,Sodium based Battery,Electro-chemical,50,2.6,Operational,Electric Bill Management with Renewables,Sacramento,California
+Ice Energy project at 729 North Dalton Ave.,34.1340989,-117.9049371,Ice Thermal Storage,Thermal Storage,40,6,Operational,Electric Supply Capacity,Azusa,California
+Ice Energy project at 901 E Alosta Ave,34.1291939,-117.8890242,Ice Thermal Storage,Thermal Storage,120,6,Operational,Electric Supply Capacity,Azusa,California
+Ice Energy project at 701 E. Foothill Blvd,34.1349915,-117.8948003,Ice Thermal Storage,Thermal Storage,120,6,Operational,Electric Supply Capacity,Azusa,California
+Ice Energy project at 164 W. Magnolia,34.1780047,-118.3167583,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Burbank,California
+Ice Energy project at 1028 Central St.,42.0641808,-87.6855735,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Evanston,Illinois
+Ice Energy project at 10661 Business Dr.,34.059657,-117.508592,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Supply Capacity,Fontana,California
+Ice Energy project at 33317 Santiago Road,34.4600722,-118.2292712,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Lancaster,California
+Ice Energy project at 1228 West Ave I,34.703566,-118.152064,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Lancaster,California
+Ice Energy project at 20th Street West,34.7105082,-118.1659914,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Lancaster,California
+Ice Energy project at 27140 Eucalyptus Ave Suite A,33.9366088,-117.18748,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Moreno Valley,California
+Ice Energy project at 27130 Eucalyptus Ave Ste D,33.9362028,-117.1871983,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Supply Capacity,Moreno Valley,California
+Ice Energy project at 27110 Eucalyptus Ave ste E,33.9361214,-117.1882979,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Moreno Valley,California
+Ice Energy project at 27120 Eucalyptus Ave Ste B,33.9357329,-117.1879238,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Supply Capacity,Moreno Valley,California
+Ice Energy project at 27200 Eucalyptus Ave,33.9381306,-117.1876847,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Supply Capacity,Moreno Valley,California
+Ice Energy project at 1200 W Ogden Ave,41.7818646,-88.1751855,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Naperville,Illinois
+Ice Energy project at 348 Boston Post Road,41.26271,-73.0063506,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Orange,Connecticut
+Ice Energy project at 385 Boston Post Road,41.260849,-73.0087651,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Orange,Connecticut
+Ice Energy project at 7211 S. 16TH ST,33.3807809,-112.0473013,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Phoenix,Arizona
+Ice Energy project at 2143 Hilltop Dr ,40.576711,-122.357228,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Supply Capacity,Redding,California
+Ice Energy project at 2155 Hilltop Dr Ste A,40.5764465,-122.3574019,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Redding,California
+Ice Energy project at 2131 Hilltop Dr ,40.576902,-122.3578919,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Supply Capacity,Redding,California
+Ice Energy project at 1894 Churn Creek Rd ,40.5790762,-122.3540199,Ice Thermal Storage,Thermal Storage,120,6,Operational,Electric Supply Capacity,Redding,California
+Ice Energy project at 950 Twin View Blvd,40.6208069,-122.3702881,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Supply Capacity,Redding,California
+Ice Energy project at 2010 Churn Creek Rd ,40.5779303,-122.3542463,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Supply Capacity,Redding,California
+Ice Energy project at 100 Lake Blvd ,40.610057,-122.380212,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Supply Capacity,Redding,California
+Ice Energy project at 280 Hartnell Ave ,40.5650953,-122.3683135,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Supply Capacity,Redding,California
+Ice Energy project at 2680 Radio Ln ,40.5479083,-122.379785,Ice Thermal Storage,Thermal Storage,170,6,Operational,Electric Supply Capacity,Redding,California
+Ice Energy Project at 1540 Charles Dr Ste B,40.630611,-122.375442,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Bill Management,Redding,California
+The Old Pine St Schoolhouse (Cheesecakes Unlimited Restaurant) - Ice Energy,40.5885906,-122.3902193,Ice Thermal Storage,Thermal Storage,40,6,Operational,Electric Bill Management,Redding,California
+Redding Furniture and Mattress - Ice Energy,40.6085464,-122.3781316,Ice Thermal Storage,Thermal Storage,40,6,Operational,Electric Bill Management,Redding,California
+Redding Subaru - Ice Energy,40.5706464,-122.3637787,Ice Thermal Storage,Thermal Storage,30,6,Operational,Electric Bill Management,Redding,California
+Valley Ace Hardware - Ice Energy,40.564228,-122.346195,Ice Thermal Storage,Thermal Storage,30,6,Operational,Electric Bill Management,Redding,California
+Mountain View Medical Group - Ice Energy,40.5800399,-122.390867,Ice Thermal Storage,Thermal Storage,30,6,Operational,Electric Bill Management,Redding,California
+Angelo's Pizza Parlor - Ice Energy,40.5812156,-122.3909419,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Bill Management,Redding,California
+Kohl's Department Store - Ice Energy,40.592158,-122.3543548,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Bill Management,Redding,California
+Tortilla Flats Restaurant - Ice Energy,40.573885,-122.373998,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Bill Management,Redding,California
+Skyway Recreation Products - Ice Energy,40.6263796,-122.3848097,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Bill Management,Redding,California
+San Francisco Residence - Ice Energy,37.7169711,-122.4054726,Ice Thermal Storage,Thermal Storage,20,6,Operational,Electric Bill Management,San Francisco,California
+Citizens Bank - Green Mountain Power Ice Energy Project 2,43.607989,-72.980894,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Bill Management,Rutland,Vermont
+St Charles City Purchasing Department - Ice Energy,41.9036393,-88.3014714,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Bill Management,St Charles,Illinois
+Wilson Creek Winery - Ice Energy,33.54781,-117.046058,Ice Thermal Storage,Thermal Storage,210,6,Operational,Electric Bill Management,Temecula,California
+Ponte Winery - Ice Energy,33.536932,-117.0507219,Ice Thermal Storage,Thermal Storage,60,6,Operational,Electric Bill Management,Temecula,California
+Brooklyn Army Terminal Smart Grid Demonstration Project,40.6439672,-74.0247966,Lead-acid Battery,Electro-chemical,100,4,Operational,Electric Bill Management with Renewables,Brooklyn,New York
+China Lake Microgrid,35.6507888,-117.66173,Lead-acid Battery,Electro-chemical,200,4,Operational,On-Site Power,Ridgecrest,California
+Del Lago Academy (IES),33.0982635,-117.1037774,Lithium-ion Battery,Electro-chemical,100,2,Operational,Electric Bill Management with Renewables,Escondido,California
+Fort Bliss Microgrid,31.8072113,-106.4336693,Lead-acid Battery,Electro-chemical,300,0.33,Operational,Electric Bill Management,Fort Bliss,Texas
+Solar Grid Storage Hackettstown,40.8539879,-74.8290555,Lithium-ion Battery,Electro-chemical,250,0.5,Operational,Frequency Regulation,Hackettstown,New Jersey
+Solar Grid Storage Denville,40.8923212,-74.4773775,Lithium-ion Battery,Electro-chemical,250,0.5,Operational,Frequency Regulation,Denville,New Jersey
+PSU GridSTAR Microgrid Test Center,39.8926159,-75.172558,Lithium-ion Battery,Electro-chemical,250,0.5,Operational,Frequency Regulation,Philadelphia,Pennsylvania
+Konterra Realty HQ ESS,39.087324,-76.897812,Lithium-ion Battery,Electro-chemical,500,0.5,Operational,Frequency Regulation,Laurel,Maryland
+SEPTA Recycled Energy and Optimization Project - Viridity,39.9866038,-75.1296885,Lithium-ion Battery,Electro-chemical,800,0.5,Operational,Frequency Regulation,Philadelphia,Pennsylvania
+PSE Storage Innovation Project - Primus Power,47.6134732,-122.1949967,Flow Battery,Electro-chemical,500,2,Operational,Electric Supply Capacity,Bellevue,Washington
+Halotechnics Advanced Molten Glass for Heat Transfer and Thermal Energy Storage,37.831316,-122.2852473,Heat Thermal Storage,Thermal Storage,5,6,Operational,Renewables Capacity Firming,Emeryille,California
+UCSD - Maxwell Technologies Ultracapacitor Bank,32.8769207,-117.2361478,Electro-chemical Capacitor,Electro-chemical,28,0.8,Operational,Frequency Regulation,La Jolla,California
+DTE Community Energy Storage for Grid Support - Residential CES Units,41.910738,-83.427436,Lithium-ion Battery,Electro-chemical,500,2,Operational,Electric Bill Management with Renewables,Monroe,Michigan
+SCE Catalina Island Energy Storage,33.3397913,-118.314218,Sodium based Battery,Electro-chemical,1000,7.2,Operational,Electric Bill Management,Avalon,California
+SDG&E Julian - S&C / Kokam,33.0786552,-116.6019637,Lithium-ion Battery,Electro-chemical,1000,2.3,Operational,Microgrid Capability,Julian,California
+American Vanadium Corp. MTA CellCube Installation,40.7045973,-74.0130665,Flow Battery,Electro-chemical,90,4.33,Operational,Grid-Connected Commercial (Reliability & Quality) ,New York,New York
+RES Battery Utility of Ohio,40.261109,-82.831654,Lithium-ion Battery,Electro-chemical,4000,0.65,Operational,Frequency Regulation,Sunbury,Ohio
+SEPTA Wayside Energy Storage System - Griscom Lithium-Ion,40.0170642,-75.0846955,Lithium-ion Battery,Electro-chemical,900,0.5,Operational,Frequency Regulation,Philadelphia,Pennsylvania
+Stafford Hill Solar Farm & Microgrid: Lead Acid,43.619416,-72.950449,Lead-acid Battery,Electro-chemical,2000,1.2,Operational,Electric Bill Management with Renewables,Rutland,Vermont
+Sandia National Solar Thermal Test Facility Molten Salt Loop,34.9635,-106.5098,Molten Salt Thermal Storage,Thermal Storage,1400,n/a,Operational,Onsite Renewable Generation Shifting,Albuquerque,New Mexico
+Kodiak ABB PowerStore Flywheels for Microgrid Stability and Harbor Crane Operation,57.7893609,-152.3972311,Flywheel,Electro-mechanical,2000,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Kodiak,Alaska
+Fort Collins Utilities Four Cities Smart Grid Development Project - Facilities Site ,40.522734,-105.091377,Ice Thermal Storage,Thermal Storage,92,6,Operational,Electric Bill Management,Fort Collins,Colorado
+Fort Collins Utilities Four Cities Smart Grid Development Project - CSU Site ,40.5729396,-105.0845025,Ice Thermal Storage,Thermal Storage,80,6,Operational,Electric Bill Management,Fort Collins,Colorado
+NREL American Vanadium CellCube Test Site,39.7408399,-105.1685277,Flow Battery,Electro-chemical,20,4,Operational,Renewables Capacity Firming,Golden,Colorado
+RDT&E for Advanced Energy Storage & Management Demonstration for USAF High Energy Demand Operations and Facilities ,20.748894,-156.439958,Sodium based Battery,Electro-chemical,100,2,Operational,Renewables Energy Time Shift,Kihei,Hawaii
+HELCO BESS - West Hawaii Civic Center,19.6737151,-156.0038955,Lithium-ion Battery,Electro-chemical,100,2.5,Operational,Distribution upgrade due to solar,Kailua-Kona,Hawaii
+CERTS Test Bed ESS,39.8318469,-82.9250204,Lithium-ion Battery,Electro-chemical,100,,Operational,On-Site Power,Grove Port,Ohio
+UCI Microgrid: Thermal Storage,33.6479102,-117.8468021,Chilled Water Thermal Storage,Thermal Storage,6590,8,Operational,Electric Bill Management,Irvine,California
+Exfob (Tricon) Ft. Devens Military Container,42.5370728,-71.6174929,Lithium-ion Battery,Electro-chemical,100,0.82,Operational,Load Following (Tertiary Balancing),Devens,Massachusetts
+Scripps Ranch Community Center BESS,32.928679,-117.079709,Lithium-ion Battery,Electro-chemical,100,1,Operational,Electric Bill Management with Renewables,San Diego,California
+"Bi-directional EV Charging Stations, LA",34.0522342,-118.2436849,Lithium-ion Battery,Electro-chemical,15,1,Operational,Transportation Services,Los Angeles,California
+JLM Energy: Alabama Solar-tied,33.5080818,-86.7877958,Lithium-ion Battery,Electro-chemical,300,1,Operational,Renewables Capacity Firming,Various,Alabama
+Zerobase Ocean Vodka PV Microgrid,20.8180782,-156.3869061,Lithium-ion Battery,Electro-chemical,100,6,Operational,Electric Supply Reserve Capacity - Non-Spinning,Kula,Hawaii
+TimberRock De-MAP Test,39.0839973,-77.1527578,Lithium-ion Battery,Electro-chemical,10,1,Operational,Grid-Connected Commercial (Reliability & Quality) ,Rockville,Maryland
+GM E-Motor Charging Station & Microgrid,39.3794196,-76.4599043,Lithium-ion Battery,Electro-chemical,30,1,Operational,Frequency Regulation,White Marsh,Maryland
+"SDGE Pala SES, GRC ES Program Unit 1",33.3930888,-117.0676398,Lithium-ion Battery,Electro-chemical,500,3,Operational,Grid-Connected Commercial (Reliability & Quality) ,Pala,California
+"SDGE Skills CES, GRC ES Program Unit 2",32.7742488,-117.1411815,Lithium-ion Battery,Electro-chemical,25,2,Operational,Grid-Connected Commercial (Reliability & Quality) ,San Diego,California
+"SDGE Clairmont CES, GRC ES Program Unit 3",32.8256427,-117.1558867,Lithium-ion Battery,Electro-chemical,25,2,Operational,Grid-Connected Commercial (Reliability & Quality) ,San Diego,California
+"SDGE Poway CES, GRC ES Program Unit 4",32.9628232,-117.0358646,Lithium-ion Battery,Electro-chemical,25,2,Operational,Grid-Connected Commercial (Reliability & Quality) ,Poway,California
+"SDGE Borrego SES, GRC ES Program Unit 5",33.2582082,-116.3243793,Lithium-ion Battery,Electro-chemical,1000,3,Operational,Grid-Connected Commercial (Reliability & Quality) ,Borrego Springs,California
+SDG&E Carmel Valley - Saft / ABB,32.9436607,-117.2088167,Lithium-ion Battery,Electro-chemical,1000,3,Operational,Grid-Connected Commercial (Reliability & Quality) ,San Diego,California
+Aquion AHI at Redwood Gate Ranch,38.4497134,-123.1151969,Sodium based Battery,Electro-chemical,15,4,Operational,On-Site Power,Jenner,California
+SMUD Galt Advanced Feeder Demo ESS,38.2546373,-121.2999485,Lithium-ion Battery,Electro-chemical,500,0.25,Operational,Onsite Renewable Generation Shifting,Galt,California
+KIUC Anahola Solar Array and Battery,22.1452778,-159.3155556,Lithium-ion Battery,Electro-chemical,6000,0.83,Operational,Onsite Renewable Generation Shifting,Anahola,Hawaii
+South Coast Air Quality Management District - CODA BESS 3,34.141845,-117.999768,Lithium-ion Battery,Electro-chemical,510,2,Operational,Electric Bill Management with Renewables,Monrovia,California
+Geli EOS enabled CODA Core System (City of Benicia City Hall),38.0525089,-122.1534235,Lithium-ion Battery,Electro-chemical,20,2,Operational,Electric Bill Management with Renewables,Benicia,California
+SNOPUD MESA 1b Project,47.936062,-122.2476602,Lithium-ion Battery,Electro-chemical,1000,0.5,Operational,Electric Energy Time Shift,Everett,Washington
+South Coast Air Quality Management District - CODA BESS 1+2,34.141763,-118.000517,Lithium-ion Battery,Electro-chemical,1000,0.5,Operational,Frequency Regulation,Monrovia,California
+CODA Energy - CORE 40/30,34.141763,-118.000517,Lithium-ion Battery,Electro-chemical,30,1.33,Operational,Electric Bill Management,Monrovia,California
+Peralta College Green Charge Networks GreenStation,37.7924765,-122.2589819,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Oakland,California
+Laney College Green Charge Networks GreenStation,37.7949249,-122.263102,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Oakland,California
+Merritt College Green Charge Networks GreenStation,37.7906143,-122.1661517,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Oakland,California
+Butte College Green Charge Networks GreenStation,39.7151014,-121.7953367,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Chico,California
+Rose City Lights,40.744365,-73.957176,Lead-acid Battery,Electro-chemical,225,4,Operational,Electric Bill Management,Long Island City,New York
+EnerDel Mobile Hybrid Power System,40.1496962,-88.2729819,Lithium-ion Battery,Electro-chemical,15,5.33,Operational,On-Site Power,Champaign,Illinois
+ATK Launch Systems Microgrid EaglePicher BESS,41.65921,-112.439866,Lead-acid Battery,Electro-chemical,300,4,Operational,Electric Energy Time Shift,Promontory ,Utah
+Erigo/US NORTHCOM BESS project,39.755543,-105.2210997,Lead-acid Battery,Electro-chemical,300,1.28,Operational,Electric Energy Time Shift,Golden,Colorado
+UET HQ BESS,47.8887886,-122.2913533,Flow Battery,Electro-chemical,600,3,Operational,On-Site Power,Mukilteo,Washington
+1 MW Avista UET Flow Battery,46.7273316,-117.1469492,Flow Battery,Electro-chemical,1000,3.2,Operational,Black Start,Pullman,Washington
+SCE Tehachapi Beacon Gen 4 FESS,35.1321877,-118.4489739,Flywheel,Electro-mechanical,100,0.25,Operational,Frequency Regulation,Tehachapi,California
+"Beacon Power 500 kW Flywheel (Tyngsboro, MA)",42.6608824,-71.4067111,Flywheel,Electro-mechanical,500,0.25,Operational,Frequency Regulation,Tyngsboro,Massachusetts
+GridSolar Boothbay Pilot Project: BESS,43.8993343,-69.6203084,Lead-acid Battery,Electro-chemical,500,6,Operational,Electric Energy Time Shift,Boothbay,Maine
+Powertree Services San Francisco One,37.7749295,-122.4194155,Lithium-ion Battery,Electro-chemical,3264,1.8,Operational,Frequency Regulation,San Francisco,California
+DC Naval Yard Zero Energy Building,38.8736103,-76.995572,Lead-acid Battery,Electro-chemical,16,3,Operational,Renewables Capacity Firming,Washington,District of Columbia
+EPCC Thermal Storage: Rio Grande,31.7639721,-106.4937799,Ice Thermal Storage,Thermal Storage,180,8,Operational,Electric Bill Management,El Paso,Texas
+EPCC Thermal Storage: Transmountain,31.8855883,-106.4404367,Ice Thermal Storage,Thermal Storage,225,8,Operational,Electric Bill Management,El Paso,Texas
+SEPTA Wayside Energy Storage System - Griscom Ultracapacitors,40.0170642,-75.0846955,Electro-chemical Capacitor,Electro-chemical,70,0.7,Operational,Voltage Support,Philadelphia,Pennsylvania
+Dangling Rope Marina Hybrid Power System,37.128587,-111.084049,Lead-acid Battery,Electro-chemical,250,9.6,Operational,Renewables Capacity Firming,Lake Powell,Utah
+Clean Energy Storage: Steel Project,47.6062095,-122.3320708,Lithium-ion Battery,Electro-chemical,5,4,Operational,Onsite Renewable Generation Shifting,Seattle,Washington
+Clean Energy Storage: Devinenini,47.6062095,-122.3320708,Lithium-ion Battery,Electro-chemical,5,4,Operational,Onsite Renewable Generation Shifting,Seattle,Washington
+Clean Energy Storage: Centralia College,46.7153384,-122.960754,Lithium-ion Battery,Electro-chemical,5,8,Operational,Electric Bill Management with Renewables,Centralia,Washington
+Clean Energy Storage: Nagasawa,47.9789848,-122.2020794,Lithium-ion Battery,Electro-chemical,5,5,Operational,Onsite Renewable Generation Shifting,Everett,Washington
+Clean Energy Storage: Sun Buzz,47.6739881,-122.121512,Lithium-ion Battery,Electro-chemical,5,5,Operational,Electric Bill Management,Redmond,Washington
+SCE LESTA: 2 MW A123 Test,33.7513419,-117.9939921,Lithium-ion Battery,Electro-chemical,2000,0.25,Operational,Grid-Connected Commercial (Reliability & Quality) ,Westminster,California
+MID Primus Power Wind Energy Storage Demonstration - Renewables Firming,37.6390972,-120.9968782,Flow Battery,Electro-chemical,250,4,Operational,Renewables Energy Time Shift,Modesto,California
+Bysolar ESS for PJM Frequency Regulation,40.6955044,-74.2287333,Lead-acid Battery,Electro-chemical,500,1,Operational,Frequency Regulation,Hillside,New Jersey
+Hawi Wind Farm BESS,19.5429151,-155.6658568,Lithium-ion Battery,Electro-chemical,1000,15,Operational,Renewables Capacity Firming,Hawaii,Hawaii
+Energy Storage Holdings Altair ALTI-ESS,40.0583238,-74.4056612,Lithium-ion Battery,Electro-chemical,1800,0.17,Operational,Frequency Regulation,New Jersey,New Jersey
+San Fermin Solar BESS,18.4308037,-65.8804433,Lithium-ion Battery,Electro-chemical,2000,15,Operational,Renewables Capacity Firming,Loiza,Puerto Rico
+Invenergy Grand Ridge Wind Project BESS,41.3308666,-88.7081293,Lithium-ion Battery,Electro-chemical,1500,0.25,Operational,Frequency Regulation,Marseilles,Illinois
+Mitsubishi UPS at CoreSite Santa Clara Data Center,37.375202,-121.971807,Electro-chemical,Electro-chemical,1500,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Santa Clara,California
+EasyStreet Data Center VYCON Flywheels,45.487062,-122.8037102,Flywheel,Electro-mechanical,800,n/a,Operational,Resiliency,Beaverton,Oregon
+Austin Energy Control Center VYCON Flywheels,30.267153,-97.7430608,Flywheel,Electro-mechanical,4800,n/a,Operational,Resiliency,Austin,Texas
+Texas Scottish Rite Hospital for Children VYCON Flywheels,32.8021433,-96.8141251,Flywheel,Electro-mechanical,600,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Dallas,Texas
+Banner Good Samaritan Medical Center VYCON Flywheels,33.4645012,-112.057851,Flywheel,Electro-mechanical,600,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Phoenix,Arizona
+Follett VYCON Flywheel,41.8108837,-88.2166528,Flywheel,Electro-mechanical,300,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Aurora,Illinois
+EMC Durham Cloud Data Center VYCON Flywheels,35.9940329,-78.898619,Flywheel,Electro-mechanical,4000,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Durham,North Carolina
+JV Industrial Data Center VYCON Flywheel,29.6657838,-95.0193728,Flywheel,Electro-mechanical,215,n/a,Operational,Electric Supply Reserve Capacity - Spinning,La Porte,Texas
+Delta Dental Data Center VYCON Flywheels,42.7009169,-84.429746,Flywheel,Electro-mechanical,860,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Okemos,Michigan
+Beth Israel Deaconess Medical Center VYCON Flywheels,42.339726,-71.104888,Flywheel,Electro-mechanical,430,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Boston,Massachusetts
+Alabama Public Television VYCON Flywheel,31.4921084,-86.3649582,Flywheel,Electro-mechanical,215,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Dozier,Alabama
+Virtua Health Data Center VYCON Flywheel,39.8381698,-74.9648887,Flywheel,Electro-mechanical,140,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Gibbsboro,New Jersey
+LIRR Malverne WESS: Ioxus,40.6754071,-73.6692196,Electro-chemical Capacitor,Electro-chemical,1000,0.2,Operational,Transportation Services,Malverne,New York
+TDX St Paul Island Wind/Diesel/Beacon Flywheel Power Plant Demonstration,57.1224981,-170.2799461,Flywheel,Electro-mechanical,160,0.8,Operational,Electric Supply Reserve Capacity - Spinning,St. Paul Island,Alaska
+Stafford Hill Solar Farm & Microgrid: Lithium Ion,43.619416,-72.950449,Lithium-ion Battery,Electro-chemical,2000,1,Operational,Electric Bill Management with Renewables,Rutland,Vermont
+World Journal Stem PowerStore System,37.598685,-122.383478,Lithium-ion Battery,Electro-chemical,36,n/a,Operational,Electric Bill Management,Millbrae,California
+ShoEi Foods Stem PowerStore System,38.994791,-121.577332,Lithium-ion Battery,Electro-chemical,72,1,Operational,Electric Bill Management with Renewables,Olivehurst,California
+Cox Enterprises Stem PowerStore System,34.0596323,-117.4726382,Lithium-ion Battery,Electro-chemical,18,1,Operational,Electric Bill Management,Fontana,California
+Flathead Electric ViZn Z20,48.2359399,-114.2762116,Flow Battery,Electro-chemical,80,2,Operational,Electric Energy Time Shift,Kalispell,Montana
+Sarasota County School District,27.3364347,-82.5306527,Ice Thermal Storage,Thermal Storage,20000,8,Operational,Electric Bill Management,Sarasota,Florida
+Jake Energy Storage Center: RES Americas,41.4877384,-88.0997601,Lithium-ion Battery,Electro-chemical,19800,0.4,Operational,Frequency Regulation,Joliet,Illinois
+Elwood Energy Storage Center: RES Americas,41.8978524,-88.2230626,Lithium-ion Battery,Electro-chemical,19800,0.4,Operational,Frequency Regulation,West Chicago,Illinois
+GridSolar Boothbay Pilot Project: Thermal Storage (Peak Shaving),43.8762865,-69.6337364,Ice Thermal Storage,Thermal Storage,221,8,Operational,Electric Bill Management,Boothbay,Maine
+GridSolar Boothbay Pilot Project: Thermal Storage (Demand Response),43.8762865,-69.6337364,Ice Thermal Storage,Thermal Storage,29,3,Operational,Electric Bill Management,Boothbay,Maine
+S&C CES: Chicago/PJM Frequency Regulation,41.8781136,-87.6297982,Lithium-ion Battery,Electro-chemical,150,n/a,Operational,Frequency Regulation,Chicago,Illinois
+Bosch Fort Bragg,35.139167,-78.999167,Lithium-ion Battery,Electro-chemical,100,1,Operational,Electric Bill Management with Renewables,Fort Bragg,North Carolina
+County of Santa Barbara Green Charge Networks GreenStation,34.4249194,-119.7034349,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Santa Barbara,California
+Oak Park USD - Brookside Elementary School Green Charge Networks GreenStation,34.1726298,-118.7560917,Lithium-ion Battery,Electro-chemical,60,2,Operational,Electric Bill Management,Oak Park,California
+California Fresh Market Green Charge Networks GreenStation,34.6088708,-120.1343285,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Solvang,California
+MVLA High School District - Los Altos HS,37.3866556,-122.1089449,Lithium-ion Battery,Electro-chemical,200,2,Operational,Demand Response,Los Altos,California
+Kaiser Permanente San Rafael Green Charge Networks GreenStation,38.003965,-122.555288,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,San Rafael,California
+90 kW / 180 kWh Santa Cruz County Building - Green Charge Networks,36.9778559,-122.0226305,Lithium-ion Battery,Electro-chemical,90,2,Operational,Electric Bill Management,Santa Cruz,California
+Shore Hotel Green Charge Networks GreenStation,34.0126959,-118.4957845,Lithium-ion Battery,Electro-chemical,60,1,Operational,Electric Bill Management,Santa Monica,California
+49er Stadium Green Charge Networks GreenStation,37.4078571,-121.963313,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Santa Clara,California
+Green Charge Networks (43rd Street Site 1),40.7621728,-73.999345,Lithium-ion Battery,Electro-chemical,27,3.5,Operational,Electric Bill Management,New York,New York
+Green Charge Networks (43rd Street Site 2),40.7621728,-73.999345,Lithium-ion Battery,Electro-chemical,27,3.5,Operational,Electric Bill Management,New York,New York
+Green Charge Networks (43rd Street Site 3),40.7621728,-73.999345,Lithium-ion Battery,Electro-chemical,27,3.5,Operational,Electric Bill Management,New York,New York
+SCE Distributed Energy Storage Integration (DESI) Pilot 1,33.78659,-117.8750976,Lithium-ion Battery,Electro-chemical,2400,1.62,Operational,Stationary Transmission/Distribution Upgrade Deferral,Orange,California
+Imperial Irrigation District BESS - GE,32.792,-115.5630514,Lithium-ion Battery,Electro-chemical,30000,0.67,Operational,Black Start,El Centro,California
+2 MW/ 4.4 MWh Puget Sound Energy - Glacier Battery Storage,48.8901226,-121.9457016,Lithium-ion Battery,Electro-chemical,2000,2.2,Operational,Resiliency,Glacier,Washington
+Ice Energy project at Verdugo Recreation,34.1808392,-118.3089661,Ice Thermal Storage,Thermal Storage,16,12,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Water Reclamation Plant,34.1822817,-118.3190352,Ice Thermal Storage,Thermal Storage,27,18,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Buena Vista Library,34.1639544,-118.3302408,Ice Thermal Storage,Thermal Storage,32,24,Operational,Electric Bill Management,Burbank,California
+Ice Energy project a Fire Station #16,34.2006531,-118.31257,Ice Thermal Storage,Thermal Storage,16,12,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at City of Burbank Fire Training,34.187481,-118.3451143,Ice Thermal Storage,Thermal Storage,28,18,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Central Library,34.1832241,-118.3062276,Ice Thermal Storage,Thermal Storage,28,24,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Field Service (PW Yard),34.1751567,-118.3125606,Ice Thermal Storage,Thermal Storage,16,12,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Colony Theater,34.185223,-118.312228,Ice Thermal Storage,Thermal Storage,32,24,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Qwest,34.199848,-118.343747,Ice Thermal Storage,Thermal Storage,12,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at IKEA #1,34.185571,-118.313742,Ice Thermal Storage,Thermal Storage,18,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at IKEA #2,34.185571,-118.313742,Ice Thermal Storage,Thermal Storage,18,6,Operational,Electric Bill Management,Burbank,California
+"Ice Energy project at Burbank Mall, Town Center",34.1834036,-118.3121235,Ice Thermal Storage,Thermal Storage,16,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Bob Hope Airport #1,34.1955111,-118.3531626,Ice Thermal Storage,Thermal Storage,15,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Bob Hope Airport #2,34.1955111,-118.3531626,Ice Thermal Storage,Thermal Storage,15,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Bob Hope Airport #3,34.1955111,-118.3531626,Ice Thermal Storage,Thermal Storage,15,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Disney Studios #1,34.1562013,-118.3252152,Ice Thermal Storage,Thermal Storage,15,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Disney Studios #2,34.1562013,-118.3252152,Ice Thermal Storage,Thermal Storage,18,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Warner Bros. Studios #1,34.1498296,-118.3405987,Ice Thermal Storage,Thermal Storage,10,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Warner Bros. Studios #2,34.1499697,-118.3411767,Ice Thermal Storage,Thermal Storage,6,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at Warner Bros. Studios #3,34.1499451,-118.3411985,Ice Thermal Storage,Thermal Storage,9,6,Operational,Electric Bill Management,Burbank,California
+Ice Energy project at M. David Paul & Associates,34.194961,-118.3453275,Ice Thermal Storage,Thermal Storage,13,6,Operational,Electric Bill Management,Burbank,California
+Beech Ridge Wind Storage 31.5 MW,37.9631733,-80.6895314,Electro-chemical,Electro-chemical,31500,n/a,Operational,Frequency Regulation,Rupert,West Virginia
+Grand Ridge Energy Storage 31.5 MW,41.3308666,-88.7081293,Lithium-ion Battery,Electro-chemical,31500,0.38,Operational,Frequency Regulation,Marseilles,Illinois
+UCSD Sunverge 10 kW,32.8807318,-117.2401999,Lithium-ion Battery,Electro-chemical,10,1,Operational,Microgrid Capability,La Jolla,California
+UCSD Thermal Storage Tank,32.8807318,-117.2401999,Chilled Water Thermal Storage,Thermal Storage,4000,4,Operational,Microgrid Capability,La Jolla,California
+UCSD Amber Kinetics 40 kWh,32.8807318,-117.2401999,Flywheel,Electro-mechanical,25,0.63,Operational,Renewables Energy Time Shift,La Jolla,California
+UCSD MCV 35 kW,32.8807318,-117.2401999,Lithium-ion Battery,Electro-chemical,35,1,Operational,Renewables Energy Time Shift,La Jolla,California
+UCSD EV Smart Chrarging with Energy Storage,32.8753618,-117.2358622,Lithium-ion Battery,Electro-chemical,60,1.67,Operational,Electric Bill Management,La Jolla,California
+Willey Energy Storage Project,39.3995008,-84.5613355,Lithium-ion Battery,Electro-chemical,6000,0.33,Operational,Frequency Regulation,Hamilton,Ohio
+2 MW - W.C. Beckjord Retired Coal Plant - Duke Energy,38.9486757,-84.2799366,Lithium-ion Battery,Electro-chemical,2000,n/a,Operational,Frequency Regulation,New Richmond,Ohio
+IPL Advancion Energy Storage Array,39.7113135,-86.1903191,Lithium-ion Battery,Electro-chemical,20000,1,Operational,Frequency Regulation,Indianapolis,Indiana
+CrystEna Energy Storage System 1 MW ,39.8440027,-75.0226691,Lithium-ion Battery,Electro-chemical,1000,0.45,Operational,Electric Supply Capacity,Somerdale,New Jersey
+JuiceBox Residential solar energy storage - AC-coupled peak-shifting and backup,37.2358078,-121.9623751,Lithium-ion Battery,Electro-chemical,5,1.17,Operational,Black Start,Los Gatos,California
+Oncor's System Operating Services Facility Microgrid: 200 kW Tesla Battery,32.5920798,-96.7561082,Lithium-ion Battery,Electro-chemical,200,2,Operational,Electric Supply Reserve Capacity - Spinning,Lancaster,Texas
+Oncor's System Operating Services Facility (SOSF) Microgrid: 25 kW S&C Electric Battery,32.564362,-96.77037,Lithium-ion Battery,Electro-chemical,25,1,Operational,Electric Supply Reserve Capacity - Spinning,Lancaster,Texas
+Rockefeller Center Thermal Storage,40.7589426,-73.9793564,Thermal: Chilled Water and Ice,Thermal Storage,1025,15,Operational,Electric Bill Management,New York City,New York
+"Glenwood, NYC: 1 MW Aggregated BTM",40.7830603,-73.9712488,Lead-acid Battery,Electro-chemical,1000,4,Operational,Demand Response,Manhattan,New York
+Ocean Park Inn 18 kW Stem,32.7950409,-117.2559448,Lithium-ion Battery,Electro-chemical,18,1,Operational,Electric Bill Management,San Diego,California
+Bucknell University Thermal Energy Storage,40.9645293,-76.8844101,Chilled Water Thermal Storage,Thermal Storage,1000,8,Operational,Electric Bill Management,Lewisburg,Pennsylvania
+Goldman Sachs Manhattan Headquarters,40.7148476,-74.0142077,Chilled Water Thermal Storage,Thermal Storage,2000,n/a,Operational,Electric Bill Management,New York,New York
+30 kW Smart Storage at Baker Electric Corporate Headquarters,33.107254,-117.117067,Lithium-ion Battery,Electro-chemical,30,2.67,Operational,Electric Bill Management,Escondido,California
+Star Island Microgrid,42.9765042,-70.6130009,Lead-acid Battery,Electro-chemical,600,n/a,Operational,Microgrid Capability,Star Island,New Hampshire
+Bakken Hale Microgrid,19.8547732,-155.9233432,Sodium based Battery,Electro-chemical,450,2.25,Operational,Microgrid Capability,Kiholo Bay,Hawaii
+Natural Energy Laboratory of Hawaii Authority (NELHA) - Aquion Energy,19.7151873,-156.0343769,Sodium based Battery,Electro-chemical,10,2.17,Operational,Microgrid Capability,Kailua-Kona,Hawaii
+Mari's Gardens Aquion Energy,21.4513314,-158.0152807,Sodium based Battery,Electro-chemical,10,2,Operational,Electric Bill Management,Mililani,Hawaii
+200 kW University of South Florida St. Petersburg,27.7518284,-82.6267345,Lithium-ion Battery,Electro-chemical,200,n/a,Operational,Renewables Energy Time Shift,St. Petersburg ,Florida
+1 MW - SunSmart Emergency Shelters Program,29.2738888,-82.1502777,Lead-acid Battery,Electro-chemical,1000,n/a,Operational,Resiliency,Multiple,Florida
+Blue Lake Rancheria Native American Reservation Microgrid - 950 kWh,40.8829072,-123.9839488,Lithium-ion Battery,Electro-chemical,950,1,Operational,Microgrid Capability,Blue Lake ,California
+Randolph-Macon College - Dominion Virginia Power,37.7610911,-77.4744794,Electro-chemical,Electro-chemical,48,n/a,Operational,Onsite Renewable Generation Shifting,Ashland,Virginia
+National Park Service Isle Royale,47.1211331,-88.5694182,Lead-acid Battery,Electro-chemical,100,2,Operational,Microgrid Capability,Houghton,Michigan
+Alliant Energy - Solar Demonstration Project,43.1507526,-89.2957893,Lithium-ion Battery,Electro-chemical,30,1,Operational,Electric Bill Management,Madison ,Wisconsin
+Kaimuki Middle School Microgrid Project,21.2691946,-157.7956942,Electro-chemical,Electro-chemical,2800,n/a,Operational,Microgrid Capability,Honolulu,Hawaii
+MVLA High School District - Mountain View HS,37.3600254,-122.0683198,Lithium-ion Battery,Electro-chemical,200,2,Operational,Demand Response,Mountain View,California
+Village of Minster - S&C Electric Company,40.3986964,-84.3860585,Lithium-ion Battery,Electro-chemical,7000,0.42,Operational,Electric Energy Time Shift,Minster,Ohio
+Kwigillingok Wind-Diesel Battery Hybrid,59.8723383,-163.1658296,Lithium-ion Battery,Electro-chemical,250,0.25,Operational,Ramping ,Kwigililngok,Alaska
+"1 MW / 2 MWh - EPRI + Southern Company Pilot BESS - Cedartown, Georgia",34.0398054,-85.2227836,Lithium-ion Battery,Electro-chemical,1000,2,Operational,Electric Energy Time Shift,Cedartown,Georgia
+Gardner Community Center Grid Resiliency with JuiceBox Energy Storage System,37.3197519,-121.8955501,Lithium-ion Battery,Electro-chemical,6,1.5,Operational,Electric Bill Management with Renewables,San Jose,California
+Camp Pendleton Fractal Grid Demonstration,33.4209412,-117.4321452,Flywheel,Electro-mechanical,30,4,Operational,Electric Bill Management with Renewables,Camp Pendleton,California
+36 kW Watanabe Floral Project,21.3236186,-157.8812698,Lithium-ion Battery,Electro-chemical,36,2,Operational,Demand Response,Honolulu,Hawaii
+KIUC Port Allen Solar and BESS,21.9061111,-159.5891667,Advanced Lead-acid Battery,Electro-chemical,3000,0.67,Operational,Frequency Regulation,Port Allen,Hawaii
+20 Pacifica Irvine Co - AMS Hybrid-Electric Building,33.6506553,-117.749707,Electro-chemical,Electro-chemical,250,6,Operational,Electric Bill Management,Irvine,California
+"20 kW / 72 kWh ICL Fire Retardant Production Site - Rancho Cucamonga, CA",34.09391,-117.572075,Electro-chemical,Electro-chemical,20,3.6,Operational,Demand Response,Rancho Cucamonga,California
+Warrior Run 10 MW Advancion Energy Storage - AES,39.5987423,-78.7435821,Electro-chemical,Electro-chemical,10000,n/a,Operational,Electric Supply Reserve Capacity - Spinning,Cumberland,Maryland
+Kotzebue Electric Association - Saft,66.8983333,-162.5966666,Lithium-ion Battery,Electro-chemical,2100,0.45,Operational,Microgrid Capability,Kotzebue,Alaska
+Borehole Thermal Energy Storage - Marine Corps Logistics Base Albany,31.5522737,-84.0589226,Heat Thermal Storage,Thermal Storage,0,n/a,Operational,On-Site Power,Albany,Georgia
+Rural New York Smart Home - Lotus Energy / SimpliPhi,41.256483,-74.3598755,Lithium Iron Phosphate Battery,Electro-chemical,20,8.17,Operational,Microgrid Capability,Warwick,New York
+20 MW - Puerto Rico - Fonroche / Schneider Electric,25.8482695,-97.532637,Electro-chemical,Electro-chemical,20,n/a,Operational,Frequency Regulation,Humacao,Puerto Rico
+1 MW - PG&E Mendocino Substation - Hecate Energy,39.258289,-123.2181935,Electro-chemical,Electro-chemical,1000,2,Operational,Stationary Transmission/Distribution Upgrade Deferral,Redwood Valley,California
+Merchandise Mart Energy Storage - Johnson Controls,41.8885185,-87.6354802,Electro-chemical,Electro-chemical,0,n/a,Operational,Electric Bill Management,Chicago,Illinois
+2 MWh - Napa Sanitation District - Tesla,38.236511,-122.2843376,Electro-chemical,Electro-chemical,500,4,Operational,Electric Bill Management,Napa,California
+Lee DeKalb Energy Storage - NextEra,41.9294736,-88.7503647,Lithium-ion Battery,Electro-chemical,20000,0.5,Operational,Frequency Regulation,DeKalb,Illinois
+Meyersdale Energy Storage - NextEra,40.022493,-78.9288242,Lithium-ion Battery,Electro-chemical,18000,0.5,Operational,Frequency Regulation,Somerset County,Pennsylvania
+Green Mountain Energy Storage - NextEra,40.022493,-78.9288242,Lithium-ion Battery,Electro-chemical,10400,0.5,Operational,Frequency Regulation,Somerset County,Pennsylvania
+Energy Storage Holdings - NextEra,39.8318378,-75.1895576,Lithium-ion Battery,Electro-chemical,1800,0.5,Operational,Frequency Regulation,West Deptford,New Jersey
+Ensync Distributed Energy Management: Aquion ,21.4513314,-158.0152807,Sodium-ion Battery,Electro-chemical,25,3.5,Operational,Renewables Energy Time Shift,Mililani,Hawaii
+McHenry Battery Storage Project - EDF Renewable Energy,42.3039993,-88.4016041,Electro-chemical,Electro-chemical,19800,n/a,Operational,Electric Supply Capacity,McHenry County,Illinois
+Juicebox Energy-Rising Sun Solar- Maui ,20.7983626,-156.3319253,Electro-chemical,Electro-chemical,4,2,Operational,Electric Bill Management,Maui,Hawaii
+Charlotte Hobbs Memorial Library - JuiceBox Energy,44.126708,-70.891645,Electro-chemical,Electro-chemical,6,1.73,Operational,Electric Bill Management with Renewables,Lovell,Maine
+Maui Brewing Company Microgrid,20.749519,-156.437346,Lithium-ion Battery,Electro-chemical,21,4.33,Operational,On-Site Power,"Kihei, Maui",Hawaii
+Temecula Valley Unified School District - SolarCity,33.4936391,-117.1483648,Lithium-ion Battery,Electro-chemical,260,10,Operational,Electric Bill Management with Renewables,Temecula,California
+New Orleans City Hall - PosiGen / SimpliPhi Power,29.9520292,-90.0771233,Lithium-ion Battery,Electro-chemical,10,2,Operational,Electric Bill Management with Renewables,New Orleans,Louisiana
+Goldthwaite Storage-Invenergy,31.4498855,-98.5708763,Sodium based Battery,Electro-chemical,600,2,Operational,Frequency Regulation,Goldthwaite,Texas
+College of Marin Kentfield Campus - Tesla,37.955595,-122.5496,Electro-chemical,Electro-chemical,2400,2,Operational,Electric Bill Management,Kentfield,California
+Rabbit Hill Energy Storage Project,30.6332618,-97.6779842,Electro-chemical,Electro-chemical,10000,0.5,Operational,Electric Energy Time Shift,Georgetown,Texas
+Taft Botanical Gardens - SimpliPhi Power,34.4480495,-119.242889,Lithium Iron Phosphate Battery,Electro-chemical,10,4,Operational,Microgrid Capability,Ojai,California
+College of Marin Indian Valley campus - Tesla,38.0776393,-122.5838184,Electro-chemical,Electro-chemical,1440,2,Operational,Electric Bill Management with Renewables, Novato,California
+"BJ's Wholesale Club - SolarCity / Direct Energy - (Framingham, MA)",42.3067456,-71.3990022,Electro-chemical,Electro-chemical,200,2,Operational,Electric Bill Management,Framingham,Massachusetts
+HELCO BESS - Koyo (NELHA),19.7173967,-156.0500252,Electro-chemical,Electro-chemical,100,2.5,Operational,Distribution upgrade due to solar,"Kailua Kona, Hawaii 96740",Hawaii
+Clinton County BESS - Exelon / RES,39.4453393,-83.8285375,Lithium-ion Battery,Electro-chemical,10000,n/a,Operational,Frequency Regulation,Wilmington,Ohio
+Stone Edge Farm Winery - Aquion Energy,38.2589716,-122.4395579,Electro-chemical,Electro-chemical,30,11.67,Operational,Electric Bill Management,Sonoma,California
+Duke Energy Rankin Substation - Win Inertia / Maxwell,35.2929696,-81.0254807,Electro-chemical Capacitor,Electro-chemical,250,0.3,Operational,Load Following (Tertiary Balancing),Mt. Holly,North Carolina
+Duke Energy Rankin Substation - Win Inertia / Aquion Energy,35.2929696,-81.0254807,Sodium based Battery,Electro-chemical,50,6,Operational,Load Following (Tertiary Balancing),Mt. Holly,North Carolina
+Alachua County Library,29.6517773,-82.3210366,Ice Thermal Storage,Thermal Storage,100,9,Operational,Electric Bill Management,Gainesville,Florida
+Stone Edge Farm Winery- All Iron Flow Battery (IFB),38.2589716,-122.4395579,Flow Battery,Electro-chemical,10,6,Operational,Grid-Connected Residential (Reliability),Sonoma,California
+Black & Veatch World Headquarters Microgrid System,38.9245145,-94.6559204,Electrochemical ,Electro-chemical,200,1.5,Operational,Electric Bill Management,Overland Park,Kansas
+Sunrun's Brightbox Residential Energy Storage-Hawaii,21.2966667,-157.7925,Lithium-ion Battery,Electro-chemical,0,n/a,Operational,Electric Bill Management,Honolulu,Hawaii
+Mike Hess Brewing- Green Charge Networks,32.7477019,-117.1285289,Lithium-ion Battery,Electro-chemical,30,2,Operational,Electric Bill Management,San Diego,California
+Con Edison Virtual Power Plant - SunPower / Sunverge,40.6781784,-73.9441579,Electro-chemical,Electro-chemical,1800,2.22,Operational,Electric Energy Time Shift,Brooklyn,New York
+Franchise Services - JLM Energy,33.5651213,-117.6641341,Electro-chemical,Electro-chemical,60,2,Operational,Electric Bill Management,Mission Viejo,California
+NEC 4 MW / 1 MWh GSS,33.7513419,-117.9939921,Lithium-ion Battery,Electro-chemical,4000,0.42,Operational,Frequency Regulation,Westminster ,California
+Park Place LBA Realty - Stem,33.674252,-117.8446963,Electro-chemical,Electro-chemical,1300,2,Operational,Demand Response,Irvine,California
+California State University Long Beach Campus - AMS,33.7830608,-118.1148909,Electro-chemical,Electro-chemical,1000,6,Operational,Electric Bill Management,Long Beach,California
+California State University Chancellor's Office - AMS,33.7641346,-118.2013207,Electro-chemical,Electro-chemical,250,6,Operational,Electric Bill Management,Long Beach,California
+One Maritime Plaza - AMS,37.7954528,-122.399213,Electro-chemical,Electro-chemical,500,2,Operational,Electric Bill Management,San Francisco,California
+Shedd Aquarium-1MW lithium-ion battery,41.8676217,-87.6136616,Lithium-ion Battery,Electro-chemical,1000,n/a,Operational,Electric Bill Management,Chicago,Illinois
+Walgreens - Green Charge Network,40.9651858,-73.8724129,Lithium-ion Battery,Electro-chemical,27,2.37,Operational,Electric Bill Management,Yonkers,New York
+Pueblo Air Cooled Run Test Facility - Calmac,38.2821073,-104.5174477,Ice Thermal Storage,Thermal Storage,3517,4,Operational,Electric Bill Management,Pueblo,Colorado
+Pueblo West Factory Building - Calmac,38.2821073,-104.5174477,Ice Thermal Storage,Thermal Storage,3517,4,Operational,Electric Energy Time Shift,Pueblo,Colorado
+Wawona Frozen Foods,36.8438329,-119.71335,Electro-chemical,Electro-chemical,250,2,Operational,Electric Bill Management,Clovis,California
+Rocky Mountain Institute Innovation Center,39.3685167,-107.0385237,Electro-chemical,Electro-chemical,30,1.5,Operational,Electric Bill Management,Basalt,Colorado
+AEP Gahanna NaS Battery Energy Storage System,40.0192307,-82.8793446,Sodium-sulfur Battery,Electro-chemical,2000,n/a,Operational,Electric Energy Time Shift,Gahanna,Ohio
+Hartley Nature Center,46.8385574,-92.0829727,Electro-chemical,Electro-chemical,6,2.37,Operational,Microgrid Capability,Duluth,Minnesota
+Moakley Courthouse - Calmac,42.3541739,-71.0471618,Ice Thermal Storage,Thermal Storage,0,n/a,Operational,Electric Bill Management,Boston,Massachusetts
+AltaGas Pomona Energy - SCE / Greensmith Energy,34.058936,-117.7754029,Electro-chemical,Electro-chemical,20000,4,Operational,Electric Supply Capacity,Pomona,California
+Western Grid Development - SCE,34.35678,-119.055045,Electro-chemical,Electro-chemical,5000,4,Operational,Electric Supply Capacity,Santa Paula,California
+San Diego Repertory - Stem,32.7145351,-117.1618911,Electro-chemical,Electro-chemical,36,4,Operational,Demand Response,San Diego,California
+Entergy 500 kW,30.0733718,-89.8628618,Electro-chemical,Electro-chemical,500,1,Operational,Onsite Renewable Generation Shifting,New Orleans,Louisiana
+OATI South Campus Microgrid,44.840798,-93.2982799,Electro-chemical,Electro-chemical,0,n/a,Operational,Demand Response,Bloomington,Minnesota
+NRECA/CRN - Distributed Energy Storage Research Project (Great River Energy),45.0954787,-93.437367,Heat Thermal Storage,Thermal Storage,15,8,Operational,Frequency Regulation,Maple Grove,Minnesota
+Wholefood Signage System,38.647953,-121.1207704,Lithium-ion Battery,Electro-chemical,1,25,Operational,Microgrid Capability,Folsom,California
+Airbnb and kitHAUS Microgrid Pop Up House,34.2483769,-118.3860171,Lithium-ion Battery,Electro-chemical,5,1,Operational,Microgrid Capability,Sun Valley,California
+CuisinArt Resort Solar Plus Storage Microgird,44.6060123,-87.723647,Lithium-ion Battery,Electro-chemical,500,0.5,Operational,Microgrid Capability,The Valley,Rendezvous Bay
+Net Zero Plus Electric Training Institute (NZP-ETI) - Solar Plus Storage,34.0005691,-118.1597929,Lithium-ion Battery,Electro-chemical,500,0.5,Operational,Black Start,City of Commerce,California
+Redding Electric Utilities (Phase 2) - Ice Energy ,40.5865396,-122.3916754,Ice Thermal Storage,Thermal Storage,6000,2,Under Construction,Electric Energy Time Shift,Redding,California
+Dalian VFB - UET / Rongke Power,38.914003,121.614682,Vanadium Redox Flow Battery,Electro-chemical,20000,4,Under Construction,Black Start,Dalian,Liaoning
+University of St Thomas Renewable Energy Facility,44.9441221,-93.1897139,Lithium-ion Battery,Electro-chemical,250,8,Under Construction,Grid-Connected Commercial (Reliability & Quality) ,St. Paul,Minnesota
+Green Omni Terminal Demonstration Project,33.7380087,-118.2602462,Electro-chemical,Electro-chemical,2600,1,Under Construction,Electric Bill Management,Los Angeles,California
+Whole Foods Kailua- Hawaii ,21.4022222,-157.7394444,Electro-chemical,Electro-chemical,0,n/a,Under Construction,Electric Bill Management,Kailua,Hawaii
+Marengo Project,42.2486332,-88.6084269,Lithium-ion Battery,Electro-chemical,20000,0.25,Under Construction,Frequency Regulation,Marengo,Illinois
