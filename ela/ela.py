@@ -158,3 +158,23 @@ def get_closest_facility(latlon, facility_data):
             dist.euclidean(latlon, (row0.lat, row0.lon)), row0.zip_dist):
         get_distances(latlon, facility_data)
     return facility_data.iloc[facility_data.zip_dist.idxmin()]
+
+
+def get_state_breakdown(latlon, facility_data):
+    pass
+
+
+def get_us_breakdown(facility_data):
+    facility_data_type = pd.Series.to_frame(pd.Series.value_counts
+                                            (facility_data['type']))
+    ratio = []
+    for i in range(len(facility_data_type)):
+        ratio_percent = str(int(100 * facility_data_type.iloc[i][0] / 
+                                facility_data_type.sum())) + "%"
+        ratio.append(ratio_percent)
+    facility_data_type['ratio'] = ratio
+    return facility_data_type['ratio']
+
+    
+def function():
+    pass
