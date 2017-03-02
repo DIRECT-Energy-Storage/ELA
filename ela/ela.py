@@ -161,11 +161,69 @@ def get_closest_facility(latlon, facility_data):
 
 
 def get_state_breakdown(state, facility_data):
+    """
+    Given a state and facility data either generation or storage
+    and break it down into different storage types.
+
+    Parameters
+    ----------
+    state: string
+        State abbreviation in two letters.
+        This can be returned by get_state_from_zip.
+
+    facility_data: Pandas Dataframe
+        Dataframe containing, at minimum, latitude and longitude values. These
+        values should be in columns entitled 'lat' and 'lon'.
+        This can be the imported gen_data or stor_data dataframes.
+
+    Returns
+    -------
+    Pandas dataframe
+        Dataframe contains information about the energy types
+        and the ratio of that type in given state.
+
+    Side Effects
+    ------------
+
+
+    Notes
+    -----
+    Energy types break down are in percentage
+
+    """
+
     state_data = facility_data.loc[facility_data['state'] == state]
     return get_energy_breakdown(state_data)
 
 
 def get_energy_breakdown(facility_data):
+    """
+    Given a facility data either generation or storage
+    and break it down into different storage types.
+
+    Parameters
+    ----------
+    facility_data: Pandas Dataframe
+        Dataframe containing, at minimum, latitude and longitude values. These
+        values should be in columns entitled 'lat' and 'lon'.
+        This can be the imported gen_data or stor_data dataframes.
+
+    Returns
+    -------
+    Pandas dataframe
+        Dataframe contains information about the energy types
+        and the ratio of that type in given state.
+
+    Side Effects
+    ------------
+
+
+    Notes
+    -----
+    Energy types break down are in percentage
+
+    """
+
     facility_data_type = pd.Series.to_frame(pd.Series.value_counts
                                             (facility_data['type'].
                                                 replace('0', 'OTHER')))
