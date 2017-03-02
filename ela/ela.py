@@ -160,21 +160,19 @@ def get_closest_facility(latlon, facility_data):
     return facility_data.iloc[facility_data.zip_dist.idxmin()]
 
 
-def get_state_breakdown(latlon, facility_data):
-    pass
+def get_state_breakdown(state, facility_data):
+    state_data = facility_data.loc[facility_data['state'] == state]
+    return get_energy_breakdown(state_data)
 
 
-def get_us_breakdown(facility_data):
+def get_energy_breakdown(facility_data):
     facility_data_type = pd.Series.to_frame(pd.Series.value_counts
-                                            (facility_data['type']))
+                                            (facility_data['type'].
+                                                replace('0', 'OTHER')))
     ratio = []
     for i in range(len(facility_data_type)):
-        ratio_percent = str(int(100 * facility_data_type.iloc[i][0] / 
+        ratio_percent = str(int(100 * facility_data_type.iloc[i][0] /
                                 facility_data_type.sum())) + "%"
         ratio.append(ratio_percent)
     facility_data_type['ratio'] = ratio
-    return facility_data_type['ratio']
-
-    
-def function():
-    pass
+    return pd.Series.to_frame(facility_data_type['ratio'])
