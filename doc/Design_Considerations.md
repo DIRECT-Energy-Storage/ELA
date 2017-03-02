@@ -11,7 +11,7 @@ Components for use case 2 only: `map_selector`, `knn_mapper`, `data_mapper`, Mat
 ### Diagram of primary interactions of components
 
 
-![Diagram of primary interactions of components](Process_Flow.png)
+![Diagram of primary interactions of components](ELA/img/Process_Flow.png)
 
 
 
