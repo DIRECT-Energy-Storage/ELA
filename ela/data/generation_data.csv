@@ -1,4 +1,4 @@
-state,name,lat,lon,type,capacity,production
+state,name,lat,lon,type,capacity(MW),production (GWh)
 AK,Agrium Kenai Nitrogen Operations,60.6732,-151.3784,GAS,21.6,0
 AK,Alakanuk,62.6833,-164.6544,OIL,2.6,2.244
 AK,Allison Creek Hydro,61.084444,-146.353333,HYDRO,6.5,0
