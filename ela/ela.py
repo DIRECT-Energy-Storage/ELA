@@ -234,3 +234,38 @@ def get_energy_breakdown(facility_data):
         ratio.append(ratio_percent)
     facility_data_type['ratio'] = ratio
     return pd.Series.to_frame(facility_data_type['ratio'])
+
+
+def split_data_by_state(facility_data, facility_type):
+    """
+    Given a facility data either generation or storage,
+    break it down by states and store it in csv.
+
+    Parameters
+    ----------
+    facility_data: Pandas Dataframe
+        Dataframe containing, at minimum, latitude and longitude values. These
+        values should be in columns entitled 'lat' and 'lon'.
+        This can be the imported gen_data or stor_data dataframes.
+
+    facility_type: string
+    A string contains the types of facility, either generation or storage
+
+    Returns
+    -------
+    None
+
+    Side Effects
+    ------------
+
+
+    Notes
+    -----
+    Store state energy data in csv.
+    """
+    states = pd.Series.unique(facility_data['state'])
+    for state in states:
+        state_data = facility_data.loc[facility_data['state'] == state]
+        filepath = './ela/data/' + state + '_' + facility_type + '.csv'
+        state_data.to_csv(filepath)
+    return None
