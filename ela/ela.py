@@ -4,9 +4,9 @@ from scipy.spatial import distance as dist
 from sklearn.neighbors import KNeighborsClassifier
 
 # Load in the data
-zip_data = pd.read_csv('.ela/data/zipcode_data.csv')
-gen_data = pd.read_csv('.ela/data/generation_data.csv')
-stor_data = pd.read_csv('.ela/data/storage_data.csv')
+zip_data = pd.read_csv('./ela/data/zipcode_data.csv')
+gen_data = pd.read_csv('./ela/data/generation_data.csv')
+stor_data = pd.read_csv('./ela/data/storage_data.csv')
 gen_clf = KNeighborsClassifier(n_neighbors=1, weights='distance')
 gen_clf.fit(gen_data[['lat', 'lon']], np.ravel(gen_data.type))
 stor_clf = KNeighborsClassifier(n_neighbors=1, weights='distance')
