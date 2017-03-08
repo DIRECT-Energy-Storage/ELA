@@ -190,10 +190,10 @@ def get_state_breakdown(state, facility_data):
     """
 
     state_data = facility_data.loc[facility_data['state'] == state]
-    return get_energy_breakdown(state_data)
+    return get_energy_breakdown(state_data, location=state)
 
 
-def get_energy_breakdown(facility_data):
+def get_energy_breakdown(facility_data, location ='US'):
     """
     Given a facility data either generation or storage
     and break it down into different storage types.
@@ -229,8 +229,8 @@ def get_energy_breakdown(facility_data):
         ratio_percent = str(int(100 * facility_data_type.iloc[i][0] /
                                 facility_data_type.sum())) + "%"
         ratio.append(ratio_percent)
-    facility_data_type['ratio'] = ratio
-    return pd.Series.to_frame(facility_data_type['ratio'])
+    facility_data_type[location + ' ratio'] = ratio
+    return pd.Series.to_frame(facility_data_type[location + ' ratio']).transpose()
 
 
 def split_data_by_state(facility_data, facility_type):
