@@ -4,13 +4,13 @@ from scipy.spatial import distance as dist
 from sklearn.neighbors import KNeighborsClassifier
 
 # Load in the data
-zip_data = pd.read_csv('./ela/data/zipcode_data.csv')
-gen_data = pd.read_csv('./ela/data/generation_data.csv')
-stor_data = pd.read_csv('./ela/data/storage_data.csv')
+zip_data = pd.read_csv('.ela/data/zipcode_data.csv')
+gen_data = pd.read_csv('.ela/data/generation_data.csv')
+stor_data = pd.read_csv('.ela/data/storage_data.csv')
 gen_clf = KNeighborsClassifier(n_neighbors=1, weights='distance')
-gen_clf.fit(gen_data[['lat','lon']], np.ravel(gen_data.type))
+gen_clf.fit(gen_data[['lat', 'lon']], np.ravel(gen_data.type))
 stor_clf = KNeighborsClassifier(n_neighbors=1, weights='distance')
-stor_clf.fit(stor_data[['lat','lon']], np.ravel(stor_data.type))
+stor_clf.fit(stor_data[['lat', 'lon']], np.ravel(stor_data.type))
 
 
 # Some imports and data loading may be moved to __init__.py
@@ -115,7 +115,7 @@ def get_closest_facility(latlon, gen_or_stor):
     else:
         raise ValueError("Enter either 'gen' or 'stor'.")
 
-    return data.iloc[clf.kneighbors(np.asarray(latlon).reshape(1,2), \
+    return data.iloc[clf.kneighbors(np.asarray(latlon).reshape(1, 2),
                                     1, False)[0][0]]
 
 
@@ -154,7 +154,7 @@ def get_predicted_type(latlon, gen_or_stor):
     else:
         raise ValueError("Enter either 'gen' or 'stor'.")
 
-    return clf.predict(np.asarray(latlon).reshape(1,2))[0]
+    return clf.predict(np.asarray(latlon).reshape(1, 2))[0]
 
 
 def get_state_breakdown(state, facility_data):
