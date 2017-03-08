@@ -7,6 +7,10 @@ from sklearn.neighbors import KNeighborsClassifier
 zip_data = pd.read_csv('./ela/data/zipcode_data.csv')
 gen_data = pd.read_csv('./ela/data/generation_data.csv')
 stor_data = pd.read_csv('./ela/data/storage_data.csv')
+gen_clf = KNeighborsClassifier(n_neighbors=1, weights='distance')
+gen_clf.fit(gen_data[['lat','lon']], np.ravel(gen_data.type))
+stor_clf = KNeighborsClassifier(n_neighbors=1, weights='distance')
+stor_clf.fit(stor_data[['lat','lon']], np.ravel(stor_data.type))
 
 
 # Some imports and data loading may be moved to __init__.py
@@ -72,55 +76,10 @@ def get_state_from_zip(zipcode):
         raise ValueError("Zipcode not in database.")
 
 
-def get_distances(latlon, facility_data):
-    """
-    Calculate the distance between a location and all input energy facilities.
-
-    Parameters
-    ----------
-    latlon : tuple of floats
-        Latitude and longitude values for the desired location.
-        This is returned by get_latlon_from_zip.
-
-    facility_data : Pandas dataframe
-        Dataframe containing, at minimum, latitude and longitude values. These
-        values should be in columns entitled 'lat' and 'lon'.
-        This can be the imported gen_data or stor_data dataframes.
-
-    Returns
-    -------
-    None.
-
-    Side Effects
-    ------------
-    If the input dataframe does not contain a 'zip_dist' column, this column is
-    added.
-    If the input dataframe has a 'zip_dist' column and this column does not
-    contain the distances to the input location, the values in this column are
-    modified.
-
-    Notes
-    -----
-    Distances are in latitude-longitude units.
-
-    """
-
-    row0 = facility_data.iloc[0]
-    if 'zip_dist' in facility_data.columns and np.isclose(
-            dist.euclidean(latlon, (row0.lat, row0.lon)), row0.zip_dist):
-        return
-
-    distances = []
-    for index, row in facility_data.iterrows():
-        facility_latlon = (row.lat, row.lon)
-        distances.append(dist.euclidean(latlon, facility_latlon))
-    facility_data['zip_dist'] = distances
-
-
-def get_closest_facility(latlon, facility_data):
+def get_closest_facility(latlon, gen_or_stor):
     """
     Find the closest energy facility to the input location, from the facilities
-    in the input dataframe.
+    in the input classifier.
 
     Parameters
     ----------
@@ -128,10 +87,8 @@ def get_closest_facility(latlon, facility_data):
         Latitude and longitude values for the desired location.
         This is returned by get_latlon_from_zip.
 
-    facility_data : Pandas dataframe
-        Dataframe containing, at minimum, latitude and longitude values. These
-        values should be in columns entitled 'lat' and 'lon'.
-        This can be the imported gen_data or stor_data dataframes.
+    gen_or_stor : string, either 'gen' or 'stor'
+        Specify whether to return a generation or storage facility.
 
     Returns
     -------
@@ -139,13 +96,9 @@ def get_closest_facility(latlon, facility_data):
         Entire row from the dataframe, containing information about the energy
         facility closest to the input location.
 
-    Side Effects
-    ------------
-    If the input dataframe does not contain a 'zip_dist' column, this column is
-    added.
-    If the input dataframe has a 'zip_dist' column and this column does not
-    contain the distances to the input location, the values in this column are
-    modified.
+    Raises
+    ------
+    ValueError if gen_or_stor is not either 'gen' or 'stor'.
 
     Notes
     -----
@@ -153,11 +106,55 @@ def get_closest_facility(latlon, facility_data):
 
     """
 
-    row0 = facility_data.iloc[0]
-    if 'zip_dist' not in facility_data.columns or not np.isclose(
-            dist.euclidean(latlon, (row0.lat, row0.lon)), row0.zip_dist):
-        get_distances(latlon, facility_data)
-    return facility_data.iloc[facility_data.zip_dist.idxmin()]
+    if gen_or_stor == 'gen':
+        clf = gen_clf
+        data = gen_data
+    elif gen_or_stor == 'stor':
+        clf = stor_clf
+        data = stor_data
+    else:
+        raise ValueError("Enter either 'gen' or 'stor'.")
+
+    return data.iloc[clf.kneighbors(np.asarray(latlon).reshape(1,2), \
+                                    1, False)[0][0]]
+
+
+def get_predicted_type(latlon, gen_or_stor):
+    """
+    Get the predicted energy generation or storage type for the input
+    location, based on the KNN classifier. (Note that for KNN with K = 1, this
+    is the same as the type of the facility returned by get_closest_facility.)
+
+    Parameters
+    ----------
+    latlon : tuple of floats
+        Latitude and longitude values for the desired location.
+        This is returned by get_latlon_from_zip.
+
+    gen_or_stor : string, either 'gen' or 'stor'
+        Specify whether to return a generation or storage type.
+
+    Returns
+    -------
+    type : string
+        Predicted energy type based on the KNN model.
+
+    Raises
+    ------
+    ValueError if gen_or_stor is not either 'gen' or 'stor'.
+
+    """
+
+    if gen_or_stor == 'gen':
+        clf = gen_clf
+        data = gen_data
+    elif gen_or_stor == 'stor':
+        clf = stor_clf
+        data = stor_data
+    else:
+        raise ValueError("Enter either 'gen' or 'stor'.")
+
+    return clf.predict(np.asarray(latlon).reshape(1,2))[0]
 
 
 def get_state_breakdown(state, facility_data):
