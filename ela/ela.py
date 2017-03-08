@@ -193,7 +193,7 @@ def get_state_breakdown(state, facility_data):
     return get_energy_breakdown(state_data, location=state)
 
 
-def get_energy_breakdown(facility_data, location ='US'):
+def get_energy_breakdown(facility_data, location='US'):
     """
     Given a facility data either generation or storage
     and break it down into different storage types.
@@ -229,14 +229,14 @@ def get_energy_breakdown(facility_data, location ='US'):
         ratio_percent = str(int(100 * facility_data_type.iloc[i][0] /
                                 facility_data_type.sum())) + "%"
         ratio.append(ratio_percent)
-    facility_data_type[location + ' ratio'] = ratio
-    return pd.Series.to_frame(facility_data_type[location + ' ratio']).transpose()
+    facility_data_type[location] = ratio
+    return pd.Series.to_frame(facility_data_type[location]).transpose()
 
 
-def split_data_by_state(facility_data, facility_type):
+def state_type(facility_data):
     """
     Given a facility data either generation or storage,
-    break it down by states and store it in csv.
+    break it down by states and store it in a csv.
 
     Parameters
     ----------
@@ -250,7 +250,9 @@ def split_data_by_state(facility_data, facility_type):
 
     Returns
     -------
-    None
+    state_types: Pandas Dataframe
+        A data frame contains all the state energy break down
+        for a given facility data
 
     Side Effects
     ------------
@@ -258,11 +260,12 @@ def split_data_by_state(facility_data, facility_type):
 
     Notes
     -----
-    Store state energy data in csv.
+    Store state energy break dwon data in a csv file.
     """
+
     states = pd.Series.unique(facility_data['state'])
+    state_types = pd.DataFrame()
     for state in states:
-        state_data = facility_data.loc[facility_data['state'] == state]
-        filepath = './ela/data/' + state + '_' + facility_type + '.csv'
-        state_data.to_csv(filepath)
-    return None
+        state_info = get_state_breakdown(state, facility_data)
+        state_types = state_types.append(state_info).fillna('0%')
+    return state_types
