@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 from scipy.spatial import distance as dist
 from sklearn.neighbors import KNeighborsClassifier
 
@@ -260,7 +261,6 @@ def state_type(facility_data):
 
     Notes
     -----
-    Store state energy break dwon data in a csv file.
     """
 
     states = pd.Series.unique(facility_data['state'])
@@ -269,3 +269,46 @@ def state_type(facility_data):
         state_info = get_state_breakdown(state, facility_data)
         state_types = state_types.append(state_info).fillna('0%')
     return state_types
+
+
+def graph_state_breakdown(state, facility_data):
+    """
+    Given a state and a facility data either generation or storage
+    plot the energy breakdown in a pie chart
+
+    Parameters
+    ----------
+    state: String
+        A string contains the state abbreviation
+
+    facility_data: Pandas Dataframe
+        Dataframe containing, at minimum, latitude and longitude values. These
+        values should be in columns entitled 'lat' and 'lon'.
+        This can be the imported gen_data or stor_data dataframes.
+
+    Returns
+    -------
+    state_types: Pandas Dataframe
+        A data frame contains all the state energy break down
+        for a given facility data
+
+    Side Effects
+    ------------
+
+
+    Notes
+    -----
+    """
+
+    breakdown_df = get_state_breakdown(state, facility_data)
+    breakdown_df = breakdown_df.loc[:, (breakdown_df != '0%').any(axis=0)]
+    label = breakdown_df.columns
+    sizes = []
+    for i in range(len(breakdown_df.transpose())):
+        ratio = int(breakdown_df.transpose().iloc[i][0].split('%')[0])
+        sizes.append(ratio)
+    plt.pie(sizes, labels=label, autopct='%1.1f%%', shadow=True,
+            startangle=140, pctdistance=1.2, labeldistance=1.4)
+    plt.axis('equal')
+    plt.show()
+    return None
