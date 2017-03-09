@@ -26,7 +26,7 @@ def test_get_closest_facility():
 
 
 def test_get_predicted_type():
-     assert type(ela.get_predicted_type(ela.get_latlon_from_zip(98105),'stor'))==str ,"Output is not a string"
+    assert type(ela.get_predicted_type(ela.get_latlon_from_zip(98105),'stor'))==str ,"Output is not a string"
     return
 
 
