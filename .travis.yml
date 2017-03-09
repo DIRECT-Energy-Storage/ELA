@@ -18,3 +18,13 @@ script:
 after_script:
   - "coverage report"
   - "coveralls"
+
+notifications:
+  slack:
+    on_success: always
+    on_failure: change
+  email:
+    recipients:
+      - wfqethan@uw.edu
+    on_success: always
+    on_failure: never
