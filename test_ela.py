@@ -21,7 +21,12 @@ def test_get_state_from_zip():
 
 
 def test_get_closest_facility():
-    test_df = pd.DataFrame()
+    "Test for predicting the closest energy generation facility"
+    assert len(ela.get_closest_facility( ela.get_latlon_from_zip(98105),'gen').state)==2,"The state name is a stirng of 2 characters"
+    assert type(ela.get_closest_facility( ela.get_latlon_from_zip(98105),'gen').lat)==np.float64,"The latitude data is not precise"
+    assert ela.get_closest_facility( ela.get_latlon_from_zip(98105),'gen').capacity_MW> ela.get_closest_facility( ela.get_latlon_from_zip(98034),'gen').production_GWh, "Production is lesser than capacity"
+    return
+
     return
 
 
