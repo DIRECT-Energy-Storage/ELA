@@ -31,7 +31,11 @@ def test_get_closest_facility():
 
 
 def test_get_predicted_type():
+    "Test for predicting the type of generation and storage facilities"
     assert type(ela.get_predicted_type(ela.get_latlon_from_zip(98105),'stor'))==str ,"Output is not a string"
+    assert len(ela.get_predicted_type( ela.get_latlon_from_zip(98033), 'gen'))==3,"The energy resource of the plant is not oil or gas"
+    assert len(ela.get_predicted_type( ela.get_latlon_from_zip(98105), 'stor'))==16, "The storage facility is not electro-chemical"
+    return
     return
 
 
