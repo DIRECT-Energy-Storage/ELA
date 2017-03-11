@@ -1,8 +1,7 @@
+import ela
+from ela import *
 import pandas as pd
 import numpy as np
-
-import ela
-
 
 def test_get_latlon_from_zip():
     """Tests for checking the latitude-longitude for the entered zip code"""
@@ -39,7 +38,6 @@ def test_get_predicted_type():
 
 def test_get_state_breakdown():
     "Test for giving out the type of energy generation for particular state in US"
-    gen_data = pd.DataFrame(gen_data)
     A=ela.get_state_breakdown(ela.get_state_from_zip(98033),gen_data).HYDRO
     B=ela.get_state_breakdown(ela.get_state_from_zip(98033),gen_data).WIND
     C=ela.get_state_breakdown(ela.get_state_from_zip(98033),gen_data).GAS
@@ -50,9 +48,8 @@ def test_get_state_breakdown():
     return
 
 
-def test_get_energy_breakdwon():
+def test_get_energy_breakdown():
     "Test for giving out data on the type of energy generation resources across US"
-    gen_data = pd.DataFrame(gen_data)
     assert ela.get_energy_breakdown(gen_data, location='US').SOLAR==ela.get_energy_breakdown(gen_data, location='US').HYDRO,"energy generated from hydro and solar are different"
     assert len(list(ela.get_energy_breakdown(gen_data, location='US')))==12,"total number of resources considered are incorrect"
     assert ela.get_energy_breakdown(gen_data, location='US').GAS>ela.get_energy_breakdown(gen_data, location='US').COAL,"energy generated from coal is more than gas"
@@ -62,7 +59,6 @@ def test_get_energy_breakdwon():
 
 def test_state_type():
     "Test for a state wise break down in the type of energy generation resources in US"
-    gen_data = pd.DataFrame(gen_data)
     assert ela.state_type(gen_data).OIL[0]>ela.state_type(gen_data).OIL[1],"energy generated using oil as resource is greater in alabama than arkansas"
     assert ela.state_type(gen_data).HYDRO.WA>ela.state_type(gen_data).SOLAR.WA,"energy geneeration from hydro plants is less than solar plants in WA "
     assert len(ela.state_type(gen_data))==51," incorrect number of states"
