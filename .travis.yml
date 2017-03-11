@@ -15,12 +15,10 @@ before_script:
 script: 
   - "nosetests"
 
-after_script:
-  - "coverage report"
-  - "coveralls"
-
 notifications:
   slack:
+    recipients:
+      - @wfqethan
     on_success: always
     on_failure: change
   email:
