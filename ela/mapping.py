@@ -7,7 +7,7 @@ import numpy as np
 import IPython.display
 
 # Set up color scheme.
-colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5', 'Nuclear': '#b9341b',
+type_colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5', 'Nuclear': '#b9341b',
           'Biomass': '#55b64e', 'Oil': '#ff6700', 'Coal': '#fe7b89',
           'Gas': '#ffffff', 'Geothermal': '#d400ee', 'Wind': '#d9ffd8',
           'Other': '#ffffff',
@@ -138,7 +138,7 @@ def pred_gen_to_colors(df):
             the predicted energy generation type for each feature
 
     """
-    return {df.iloc[i].id: colors[df.iloc[i].pred_gen] for i in df.index}
+    return {df.iloc[i].id: type_colors[df.iloc[i].pred_gen] for i in df.index}
 
 
 def pred_stor_to_colors(df):
@@ -159,7 +159,7 @@ def pred_stor_to_colors(df):
             the predicted energy storage type for each feature
 
     """
-    return {df.iloc[i].id: colors[df.iloc[i].pred_stor] for i in df.index}
+    return {df.iloc[i].id: type_colors[df.iloc[i].pred_stor] for i in df.index}
 
 
 def pred_layer(geoj, gen_or_stor):
@@ -187,20 +187,20 @@ def pred_layer(geoj, gen_or_stor):
     geojson_predict(df)
 
     if gen_or_stor == 'gen':
-        colors = pred_gen_to_colors(df)
+        map_colors = pred_gen_to_colors(df)
     elif gen_or_stor == 'stor':
-        colors = pred_stor_to_colors(df)
+        map_colors = pred_stor_to_colors(df)
     else:
         raise ValueError("Enter either 'gen' or 'stor'.")
 
     return folium.GeoJson(geoj,
                           style_function=lambda feature: {
-                              'fillColor': colors[feature['id']],
+                              'fillColor': map_colors[feature['id']],
                               'weight': 0})
 
 
-def display_key():                          
-    IPython.display.Image(filename='Legend_Gen.png')
+def display_gen_legend():
+    IPython.display.Image(filename='.img/Legend_Gen.png')
 
 
 def gen_statewise(state):
@@ -259,7 +259,8 @@ def gen_statewise(state):
             pass
     return m
 
-IPython.display.Image(filename='Legend_Stor.png')
+def display_stor_legend():
+    IPython.display.Image(filename='.img/Legend_Stor.png')
 
 def stor_statewise(state):
     """
