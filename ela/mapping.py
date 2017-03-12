@@ -200,7 +200,7 @@ def pred_layer(geoj, gen_or_stor):
 
 
 def display_gen_legend():
-    IPython.display.Image(filename='.img/Legend_Gen.png')
+    IPython.display.Image(filename='img/Legend_Gen.png')
 
 
 def gen_statewise(state):
@@ -260,7 +260,7 @@ def gen_statewise(state):
     return m
 
 def display_stor_legend():
-    IPython.display.Image(filename='.img/Legend_Stor.png')
+    IPython.display.Image(filename='img/Legend_Stor.png')
 
 def stor_statewise(state):
     """
