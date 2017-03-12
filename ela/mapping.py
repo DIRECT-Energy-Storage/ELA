@@ -295,4 +295,3 @@ def stor_statewise(state):
             f.add_child(folium.features.CircleMarker([rows[2],rows[3]],radius=3,fill_color='#55b64e')) #GREEN
             m.add_child(f)
     return m
->>>>>>> c8645cf94a85fc2da80874daba14fe24ff6034df
