@@ -15,9 +15,9 @@ colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5', 'Nuclear': '#b9341b',
           'Pumped Hydro Storage': '#b9341b', 'Thermal Storage': '#55b64e'}
 
 # Load state and county boundaries.
-with open('us-states.json') as f:
+with open('./ela/data/us-states.json') as f:
     states = json.load(f)
-with open('us-counties.json') as f:
+with open('./ela/data/us-counties.json') as f:
     counties = json.load(f)
 
 
