@@ -9,8 +9,8 @@ import IPython.display
 # Set up color scheme.
 type_colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5', 'Nuclear': '#b9341b',
           'Biomass': '#55b64e', 'Oil': '#ff6700', 'Coal': '#fe7b89',
-          'Gas': '#ffffff', 'Geothermal': '#d400ee', 'Wind': '#d9ffd8',
-          'Other': '#ffffff',
+          'Gas': '#283b1a', 'Geothermal': '#d400ee', 'Wind': '#d9ffd8',
+          'Other': '#000000',
           'Electro-mechanical': '#f6cc0a', 'Electro-chemical': '#2B90F5',
           'Pumped Hydro Storage': '#b9341b', 'Thermal Storage': '#55b64e'}
 
@@ -162,7 +162,7 @@ def pred_stor_to_colors(df):
     return {df.iloc[i].id: type_colors[df.iloc[i].pred_stor] for i in df.index}
 
 
-def pred_layer(geoj, gen_or_stor):
+def prediction_map(geoj, gen_or_stor):
     """
     Create a Folium map layer with features colored by predicted energy type.
 
@@ -199,100 +199,55 @@ def pred_layer(geoj, gen_or_stor):
                               'weight': 0})
 
 
-def display_gen_legend():
-    IPython.display.Image(filename='img/Legend_Gen.png')
-
-
-def gen_statewise(state):
+def facility_map(state, gen_or_stor):
     """
-    Given a state, it identifies the generation facilities of that
-    state and plots them in a color code based on the type of the
-    facility using folium as a mapping tool.
+    Plot generation facilities in one state on a map, colored by energy type.
 
     Parameters
     ----------
     state : str
+        Two-letter abbreviation for the state to be visualized.
+    gen_or_stor : string, either 'gen' or 'stor'
+        Specify whether to map generation or storage facilities.
 
     Returns
     -------
-    map
+    Folium map layer :
+        FeatureGroup containing a marker for each facility.
 
     """
 
-    gen_df = ela.gen_data
-    gen_df = gen_df[gen_df.state==state]
-    m=folium.Map()
-    for index,rows in gen_df.iterrows():
-        f = folium.map.FeatureGroup()
-        if rows[5]=='Solar':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#f6cc0a')) #YELLOW
-            m.add_child(f)
-        elif rows[5]=='Hydro':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#2B90F5')) #BLUE
-            m.add_child(f)
-        elif rows[5]=='Nuclear':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#b9341b')) #RED
-            m.add_child(f)
-        elif rows[5]=='Biomass':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#55b64e')) #GREEN
-            m.add_child(f)
-        elif rows[5]=='Oil':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#ff6700')) #ORANGE
-            m.add_child(f)
-        elif rows[5]=='Coal':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#fe7b89')) #PINK
-            m.add_child(f)
-        elif rows[5]=='Geothermal':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#d400ee')) #PURPLE
-            m.add_child(f)
-        elif rows[5]=='Wind':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#b9eeb7')) #MINT
-            m.add_child(f)
-        elif rows[5]=='Other':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#000000')) #BLACK
-            m.add_child(f)
-        elif rows[5]=='Gas':
-            f.add_child(folium.features.CircleMarker([rows[3],rows[4]],radius=3,fill_color='#283b1a')) #DARKGREEN
-            m.add_child(f)
+    if gen_or_stor == 'gen':
+        state_df = ela.gen_data[ela.gen_data.state == state]
+    elif gen_or_stor == 'stor':
+        state_df = ela.stor_data[ela.stor_data.state == state]
+    else:
+        raise ValueError("Enter either 'gen' or 'stor'.")
 
-        else:
-            pass
-    return m
+    f = folium.map.FeatureGroup()
+    for index, row in state_df.iterrows():
+        tp = row.type
+        f.add_child(folium.features.CircleMarker([row.lat, row.lon],
+                                                 radius=3,
+                                                 fill_color=type_colors[tp]))
+    return f
 
-def display_stor_legend():
-    IPython.display.Image(filename='img/Legend_Stor.png')
 
-def stor_statewise(state):
+def state_map(state):
     """
-    Given a state, it identifies the storage facilities of that
-    state and plots them in a color code based on the type of the
-    facility using folium as a mapping tool.
+    Generate blank folium map centered at the input state.
 
     Parameters
     ----------
-    state : str
+    state: string
+        Two-letter abbreviation for the state to be visualized.
 
     Returns
     -------
-    map
+    Folium map object
 
     """
 
-    stor_df = ela.stor_data
-    stor_df = stor_df[stor_df.state==state]
-    m=folium.Map()
-    for index,rows in stor_df.iterrows():
-        f = folium.map.FeatureGroup()
-        if rows[5]=='Electro-mechanical':
-            f.add_child(folium.features.CircleMarker([rows[2],rows[3]],radius=3,fill_color='#f6cc0a')) #YELLOW
-            m.add_child(f)
-        elif rows[5]=='Electro-chemical':
-            f.add_child(folium.features.CircleMarker([rows[2],rows[3]],radius=3,fill_color='#2B90F5')) #BLUE
-            m.add_child(f)
-        elif rows[5]=='Pumped Hydro Storage':
-            f.add_child(folium.features.CircleMarker([rows[2],rows[3]],radius=3,fill_color='#b9341b')) #RED
-            m.add_child(f)
-        elif rows[5]=='Thermal Storage':
-            f.add_child(folium.features.CircleMarker([rows[2],rows[3]],radius=3,fill_color='#55b64e')) #GREEN
-            m.add_child(f)
-    return m
+    state_lat = ela.zip_data[ela.zip_data.state == state].lat.mean()
+    state_lon = ela.zip_data[ela.zip_data.state == state].lon.mean()
+    return folium.Map(location=[state_lat, state_lon], zoom_start=5)
