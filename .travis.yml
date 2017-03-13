@@ -15,9 +15,9 @@ script:
   - "nosetests"
 
 notifications:
-  slack:
+  slack: uwdirect:BHz8eEmXgh849EIXSV3egnhD
     on_success: always
-    on_failure: change
+    on_failure: always
   email:
     recipients:
       - "wfqethan@uw.edu"
