@@ -16,8 +16,4 @@ script:
 
 notifications:
   slack: uwdirect:BHz8eEmXgh849EIXSV3egnhD
-  email:
-    recipients:
-      - "wfqethan@uw.edu"
-    on_success: always
-    on_failure: never
+  email: false
