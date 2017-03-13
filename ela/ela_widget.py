@@ -21,6 +21,11 @@ def interact_html():
     ------
     None
     """
+    # widgets.Checkbox(
+    #     value=False,
+    #     description='Storage Data'
+    # )
+
     widgets.HTML(
         value=interact(),
         placeholder='energy breakdown HTML',
@@ -91,10 +96,14 @@ def handle_submit(zipcode):
     latlon = ela.get_latlon_from_zip(zipcode)
     predict_gen = ela.get_predicted_type(latlon, 'gen')
     predict_store = ela.get_predicted_type(latlon, 'stor')
-    print("Your predicted local generation energy type is: %s"
+    print("Predicted local generation energy type: %s"
           % (predict_gen))
-    print("Your predicted local storage energy type is: %s"
+    print("Predicted local storage energy type: %s"
           % (predict_store))
+    print("Energy generation breakdown of your state %s:" %
+          (ela.get_state_from_zip(zipcode)))
     ela.graph_state_breakdown(ela.get_state_from_zip(zipcode), ela.gen_data)
+    print("Energy storage breakdown of your state %s:" %
+          (ela.get_state_from_zip(zipcode)))
     ela.graph_state_breakdown(ela.get_state_from_zip(zipcode), ela.stor_data)
     return
