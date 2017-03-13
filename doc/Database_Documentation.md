@@ -1,28 +1,32 @@
-The primary dataset is the information extracted for United States from **DOE Global Energy Storage Database**.
-The data set contains **1629 rows** (representing 1629 U.S. energy storage facilities) and **106 columns**.
-The columns of primary importance in the data set are listed below:
+# Datasets for ELA: Energy by Location in America
 
+## Energy generation facilities
 
-* Project name
-* Technology
-* Technology type
-* Rated Power in kW
-* Duration
-* Longitude and Longitude
+This dataset is from the U.S. Environmental Protection Agency (EPA), specifically the Emissions & Generation Resource Integrated Database (eGRID). The original dataset can be found [here](https://www.epa.gov/energy/emissions-generation-resource-integrated-database-egrid) and includes information about U.S. power plants, their emissions, and their energy sources. The data is from 2014 but was released in January 2017; eGRID data from previous years is also available.
 
-The complete data set can be obtained from DOE Global Energy Storage Database at `http://www.energystorageexchange.org`.
-It is possible to create subsets for the dataset for unit tests using integer or label based indexing in a python dataframe.
+Our condensed dataset focuses on the plant-level data from 2014 and on energy generation types. We have removed facilities with no specified energy generation type. This dataset contains 8462 facilities.
 
-The other dataset is of the **United States EPA** (Environmental Protection Agency).
-The complete dataset contains information at the level of power generators, power plants, states, grid regions, and more. Our project will focus on the power plant data and potentially also incorporate the state-level data.  
-The power plant dataset contains **8505 rows** (representing 8505 U.S. power plants) and **120 columns**
-The columns of primary importance in the data set are listed below:
+For each facility, the dataset includes:
+* The state where each facility is located
+* The name of the facility
+* Latitude and longitude
+* Primary energy type (Gas, Oil, Coal, Biomass, Nuclear, Geothermal, Solar, Wind, Hydro, Other)
+* Rated capacity in MW
+* Actual production in GWh
 
-* Plant name
-* Plant Latitude and Longitude
-* Plant capacity factor
-* Plant annual net generation for oil,coal,gas,nuclear power,hydropower,biomass,wind,solar,geothermal and other fossil fuels
+## Energy storage facilities
 
-From the plant annual net generation columns, we will extract the primary energy type for each plant to be used in our classification model.  
-The link for the above dataset is `https://www.epa.gov/energy/emissions-generation-resource-integrated-database-egrid`
-It is possible to generate subsets for the dataset for unit tests by using integer or label based indexing in python dataframe
+This dataset is from the U.S. Department of Energy (DOE), specifically the DOE Global Energy Storage Database. The original database can be found [here](http://www.energystorageexchange.org/projects) and includes information about 1628 energy storage facilities around the world.
+
+Our condensed dataset is limited to facilities in the U.S. and contains 678 facilities.
+
+For each facility, the dataset includes:
+* The name of each facility
+* Latitude and longitude
+* Type of energy technology (`type` is the general category, which includes Electro-mechanical, Pumped Hydro Storage, Electro-chemical, or Thermal Storage; `type2` is a more specific description)
+* Power in kW
+* Energy storage duration
+* Status of the facility
+* Primary use case
+* City and state where the facility is located
+
