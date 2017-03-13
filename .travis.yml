@@ -9,7 +9,6 @@ sudo: false
 install: 
   - "pip install -r requirements.txt"
 
-before_script:
 
 # command to run tests
 script: 
@@ -17,12 +16,10 @@ script:
 
 notifications:
   slack:
-    recipients:
-      - @wfqethan
     on_success: always
     on_failure: change
   email:
     recipients:
-      - wfqethan@uw.edu
+      - "wfqethan@uw.edu"
     on_success: always
     on_failure: never
