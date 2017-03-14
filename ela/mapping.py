@@ -4,7 +4,6 @@ import folium
 import pandas as pd
 import json
 import numpy as np
-import IPython.display
 
 # Set up color scheme.
 type_colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5', 'Nuclear': '#b9341b',

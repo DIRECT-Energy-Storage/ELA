@@ -102,10 +102,10 @@ def handle_submit(zipcode):
           % (predict_store))
     print("Energy generation breakdown of your state %s:" %
           (ela.get_state_from_zip(zipcode)))
-    ela.graph_state_breakdown(ela.get_state_from_zip(zipcode), ela.gen_data)
+    ela.graph_state_breakdown(ela.get_state_from_zip(zipcode), 'gen')
     print("Energy storage breakdown of your state %s:" %
           (ela.get_state_from_zip(zipcode)))
-    ela.graph_state_breakdown(ela.get_state_from_zip(zipcode), ela.stor_data)
+    ela.graph_state_breakdown(ela.get_state_from_zip(zipcode), 'stor')
     return
 
 
