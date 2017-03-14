@@ -113,7 +113,20 @@ def map_widget():
     """
     IPywidgets for generating and displaying Folium maps of energy types.
 
+    The user can choose a state from a dropdown menu and select from
+    generation facilities, storage facilities, generation prediction, and
+    storage prediction map types (using checkboxes). The "Generate map"
+    button displays a Folium map of the selected state and information.
+
+    Prediction maps (for the full U.S.) are generated when the widget is
+    loaded and displayed when the user clicks "Generate map".
+    Facility maps (for individual states) are generated and displayed when the
+    user clicks "Generate map".
+
     """
+
+    gen_pred_map = ela.prediction_map(ela.counties, 'gen')
+    stor_pred_map = ela.prediction_map(ela.counties, 'stor')
 
     state_box = widgets.Dropdown(options=['AK', 'AL', 'AR', 'AS', 'AZ', 'CA',
                                           'CO', 'CT', 'DC', 'DE', 'FL', 'GA',
@@ -145,22 +158,39 @@ def map_widget():
 
     go_button = widgets.Button(description='Generate map')
 
-    display(state_box)
-    display(gen_fac_box, stor_fac_box, gen_pred_box, stor_pred_box)
-    display(go_button)
+    gen_legend_file = open("./img/Legend_Gen.png", "rb")
+    gen_legend_img = gen_legend_file.read()
+    gen_legend = widgets.Image(
+        value=gen_legend_img,
+        format='png',
+        width=149, height=208
+    )
+
+    stor_legend_file = open("./img/Legend_Stor.png", "rb")
+    stor_legend_img = stor_legend_file.read()
+    stor_legend = widgets.Image(
+        value=stor_legend_img,
+        format='png',
+        width=215, height=90
+    )
+
+    left = widgets.VBox([state_box, gen_fac_box, stor_fac_box,
+                         gen_pred_box, stor_pred_box, go_button])
+    display(widgets.HBox([left, gen_legend, stor_legend]))
 
     def generate_map(sender):
+        """Locally defined response function for "Generate map" button."""
         clear_output()
         state = state_box.value
         m = ela.state_map(state)
-        if (gen_fac.value is True):
+        if gen_fac.value:
             m.add_child(ela.facility_map(state, 'gen'))
-        if (stor_fac.value is True):
+        if stor_fac.value:
             m.add_child(ela.facility_map(state, 'stor'))
-        if (gen_pred.value is True):
-            m.add_child(ela.prediction_map(ela.counties, 'gen'))
-        if (stor_pred.value is True):
-            m.add_child(ela.prediction_map(ela.counties, 'stor'))
+        if gen_pred.value:
+            m.add_child(gen_pred_map)
+        if stor_pred.value:
+            m.add_child(stor_pred_map)
         display(m)
 
     go_button.on_click(generate_map)
