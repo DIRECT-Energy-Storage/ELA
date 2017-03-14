@@ -8,8 +8,9 @@ ELA is a tool for learning about the distribution of U.S. energy generation and 
 
 ### Features
 #### List of things ELA can do
-* more specific when finalized
-* TBD
+* By giving a two letter abbreviation for each state in the United States of America, `ela` can visualize the energy generation facilities for that state.
+* By giving a two letter abbreviation for each state in the United States of America, `ela` can visualize the energy storage facilities for that state.
+
 
 An example Jupyter notebook illustrating these features is available here. (will link to demo notebook when finished)
 
