@@ -1,9 +1,16 @@
+import os
 from ipywidgets import widgets
 from IPython.display import display
 from IPython.display import clear_output
 
 import ela
 
+ela_dir, ela_filename = os.path.split(__file__)
+img_dir = os.path.join(ela_dir, "img")
+gen_legend_file = open(os.path.join(img_dir, "Legend_Gen.png", "rb"))
+gen_legend_img = gen_legend_file.read()
+stor_legend_file = open(os.path.join(img_dir, "Legend_Stor.png", "rb"))
+stor_legend_img = stor_legend_file.read()
 
 def interact_html():
     """
@@ -158,16 +165,12 @@ def map_widget():
 
     go_button = widgets.Button(description='Generate map')
 
-    gen_legend_file = open("./img/Legend_Gen.png", "rb")
-    gen_legend_img = gen_legend_file.read()
     gen_legend = widgets.Image(
         value=gen_legend_img,
         format='png',
         width=149, height=208
     )
 
-    stor_legend_file = open("./img/Legend_Stor.png", "rb")
-    stor_legend_img = stor_legend_file.read()
     stor_legend = widgets.Image(
         value=stor_legend_img,
         format='png',

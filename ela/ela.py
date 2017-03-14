@@ -1,21 +1,20 @@
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
 from sklearn.neighbors import KNeighborsClassifier
 
-
-# Load in the data
-zip_data = pd.read_csv('./ela/data/zipcode_data.csv')
-gen_data = pd.read_csv('./ela/data/generation_data.csv')
-stor_data = pd.read_csv('./ela/data/storage_data.csv')
+# Load in the data and set up KNN
+ela_dir, ela_filename = os.path.split(__file__)
+data_dir = os.path.join(ela_dir, "data")
+zip_data = pd.read_csv(os.path.join(data_dir, 'zipcode_data.csv'))
+gen_data = pd.read_csv(os.path.join(data_dir, 'generation_data.csv'))
+stor_data = pd.read_csv(os.path.join(data_dir, 'storage_data.csv'))
 gen_clf = KNeighborsClassifier(n_neighbors=1, weights='distance')
 gen_clf.fit(gen_data[['lat', 'lon']], np.ravel(gen_data.type))
 stor_clf = KNeighborsClassifier(n_neighbors=1, weights='distance')
 stor_clf.fit(stor_data[['lat', 'lon']], np.ravel(stor_data.type))
 
-
-# Some imports and data loading may be moved to __init__.py
 
 def get_latlon_from_zip(zipcode):
     """
