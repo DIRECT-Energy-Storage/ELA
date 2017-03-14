@@ -4,7 +4,6 @@ import folium
 import pandas as pd
 import json
 import numpy as np
-import IPython.display
 
 # Set up color scheme.
 type_colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5', 'Nuclear': '#b9341b',
@@ -225,11 +224,18 @@ def facility_map(state, gen_or_stor):
         raise ValueError("Enter either 'gen' or 'stor'.")
 
     f = folium.map.FeatureGroup()
-    for index, row in state_df.iterrows():
-        tp = row.type
-        f.add_child(folium.features.CircleMarker([row.lat, row.lon],
-                                                 radius=3,
-                                                 fill_color=type_colors[tp]))
+    if gen_or_stor == 'gen':
+        for index, row in state_df.iterrows():
+            tp = row.type
+            f.add_child(folium.CircleMarker([row.lat, row.lon],
+                        radius=5, weight=1, fill_color=type_colors[tp],
+                        fill_opacity=1))
+    elif gen_or_stor == 'stor':
+        for index, row in state_df.iterrows():
+            tp = row.type
+            f.add_child(folium.RegularPolygonMarker([row.lat, row.lon],
+                        number_of_sides=3, radius=8, rotation=30, weight=1,
+                        fill_color=type_colors[tp], fill_opacity=1))
     return f
 
 
@@ -250,4 +256,4 @@ def state_map(state):
 
     state_lat = ela.zip_data[ela.zip_data.state == state].lat.mean()
     state_lon = ela.zip_data[ela.zip_data.state == state].lon.mean()
-    return folium.Map(location=[state_lat, state_lon], zoom_start=5)
+    return folium.Map(location=[state_lat, state_lon], zoom_start=6)
