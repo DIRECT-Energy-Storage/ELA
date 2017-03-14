@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.spatial import distance as dist
+
 from sklearn.neighbors import KNeighborsClassifier
+
 
 # Load in the data
 zip_data = pd.read_csv('./ela/data/zipcode_data.csv')
@@ -271,7 +272,7 @@ def state_type(facility_data):
     return state_types
 
 
-def graph_state_breakdown(state, facility_data):
+def graph_state_breakdown(state, gen_or_stor):
     """
     Given a state and a facility data either generation or storage
     plot the energy breakdown in a pie chart
@@ -281,16 +282,11 @@ def graph_state_breakdown(state, facility_data):
     state: String
         A string contains the state abbreviation
 
-    facility_data: Pandas Dataframe
-        Dataframe containing, at minimum, latitude and longitude values. These
-        values should be in columns entitled 'lat' and 'lon'.
-        This can be the imported gen_data or stor_data dataframes.
+    gen_or_stor : string, either 'gen' or 'stor'
+        Specify whether to map generation or storage facilities.
 
     Returns
     -------
-    state_types: Pandas Dataframe
-        A data frame contains all the state energy break down
-        for a given facility data
 
     Side Effects
     ------------
@@ -298,17 +294,38 @@ def graph_state_breakdown(state, facility_data):
 
     Notes
     -----
+    Plot a pie chart which break down in percentage of each energy type
     """
+    type_colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5',
+                   'Nuclear': '#b9341b',
+                   'Biomass': '#55b64e', 'Oil': '#ff6700',
+                   'Coal': '#fe7b89',
+                   'Gas': '#283b1a', 'Geothermal': '#d400ee',
+                   'Wind': '#d9ffd8',
+                   'Other': '#000000',
+                   'Electro-mechanical': '#f6cc0a',
+                   'Electro-chemical': '#2B90F5',
+                   'Pumped Hydro Storage': '#b9341b',
+                   'Thermal Storage': '#55b64e'}
+
+    if gen_or_stor == 'gen':
+        facility_data = gen_data[gen_data.state == state]
+    elif gen_or_stor == 'stor':
+        facility_data = stor_data[stor_data.state == state]
+    else:
+        raise ValueError("Enter either 'gen' or 'stor'.")
 
     breakdown_df = get_state_breakdown(state, facility_data)
     breakdown_df = breakdown_df.loc[:, (breakdown_df != '0%').any(axis=0)]
     label = breakdown_df.columns
     sizes = []
+    colors = []
     for i in range(len(breakdown_df.transpose())):
         ratio = int(breakdown_df.transpose().iloc[i][0].split('%')[0])
         sizes.append(ratio)
+        colors.append(type_colors[label[i]])
     plt.pie(sizes, labels=label, autopct='%1.1f%%', shadow=True,
-            startangle=140, pctdistance=1.2, labeldistance=1.4)
+            startangle=140, pctdistance=1.2, labeldistance=1.4, colors=colors)
     plt.axis('equal')
     plt.show()
     return None
