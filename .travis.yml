@@ -15,5 +15,8 @@ script:
   - "nosetests"
 
 notifications:
-  slack: uwdirect:BHz8eEmXgh849EIXSV3egnhD
+  slack: 
+    rooms:
+      - uwdirect:BHz8eEmXgh849EIXSV3egnhD
+      - uwdirect:PtrBfyiMU6MoM6Em2aQDXiVr
   email: false
