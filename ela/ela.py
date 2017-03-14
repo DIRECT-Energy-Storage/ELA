@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.spatial import distance as dist
+
 from sklearn.neighbors import KNeighborsClassifier
+
 
 # Load in the data
 zip_data = pd.read_csv('./ela/data/zipcode_data.csv')
@@ -271,7 +272,7 @@ def state_type(facility_data):
     return state_types
 
 
-def graph_state_breakdown(state, facility_data):
+def graph_state_breakdown(state, gen_or_stor):
     """
     Given a state and a facility data either generation or storage
     plot the energy breakdown in a pie chart
@@ -281,16 +282,11 @@ def graph_state_breakdown(state, facility_data):
     state: String
         A string contains the state abbreviation
 
-    facility_data: Pandas Dataframe
-        Dataframe containing, at minimum, latitude and longitude values. These
-        values should be in columns entitled 'lat' and 'lon'.
-        This can be the imported gen_data or stor_data dataframes.
+    gen_or_stor : string, either 'gen' or 'stor'
+        Specify whether to map generation or storage facilities.
 
     Returns
     -------
-    state_types: Pandas Dataframe
-        A data frame contains all the state energy break down
-        for a given facility data
 
     Side Effects
     ------------
@@ -298,7 +294,15 @@ def graph_state_breakdown(state, facility_data):
 
     Notes
     -----
+    Plot a pie chart which break down in percentage of each energy type
     """
+
+    if gen_or_stor == 'gen':
+        facility_data = gen_data[gen_data.state == state]
+    elif gen_or_stor == 'stor':
+        facility_data = stor_data[stor_data.state == state]
+    else:
+        raise ValueError("Enter either 'gen' or 'stor'.")
 
     breakdown_df = get_state_breakdown(state, facility_data)
     breakdown_df = breakdown_df.loc[:, (breakdown_df != '0%').any(axis=0)]
