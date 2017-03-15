@@ -1,11 +1,12 @@
 """Functions for exploring and evaluating a K-nearest-neighbors model
 with different parameters and data sets"""
 
-import ela
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
+
+import ela
+
 
 gen = ela.gen_data
 stor = ela.stor_data
@@ -61,7 +62,8 @@ def predict_types(k, weights, train_df, test_df):
 
 def count_pred_types(df):
     """
-    Print a list of predicted energy types and number of facilities of each type.
+    Print a list of predicted energy types and
+    number of facilities of each type.
 
     Parameters
     ----------
