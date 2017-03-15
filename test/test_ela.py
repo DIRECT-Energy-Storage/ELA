@@ -1,7 +1,7 @@
-import ela
-from ela import *
-import pandas as pd
 import numpy as np
+
+import ela
+
 
 def test_get_latlon_from_zip():
     """Tests for checking the latitude-longitude for the entered zip code"""
@@ -33,7 +33,7 @@ def test_get_state_from_zip():
 
 def test_get_closest_facility():
     """Test for predicting the closest energy generation facility"""
-
+    gen_data = ela.gen_data
     assert len(ela.get_closest_facility( ela.get_latlon_from_zip(98105),'gen').state)==2,"The state name is a stirng of 2 characters"
     assert type(ela.get_closest_facility( ela.get_latlon_from_zip(98105),'gen').lat)==np.float64,"The latitude data is not precise"
     assert ela.get_closest_facility( ela.get_latlon_from_zip(98105),'gen').capacity_MW> ela.get_closest_facility( ela.get_latlon_from_zip(98034),'gen').production_GWh, "Production is less than capacity"
@@ -57,7 +57,7 @@ def test_get_predicted_type():
 
 def test_get_state_breakdown():
     """Test for giving out the type of energy generation for particular state in US"""
-
+    gen_data = ela.gen_data
     A=ela.get_state_breakdown(ela.get_state_from_zip(98033),gen_data).Hydro
     B=ela.get_state_breakdown(ela.get_state_from_zip(98033),gen_data).Wind
     C=ela.get_state_breakdown(ela.get_state_from_zip(98033),gen_data).Gas
@@ -70,7 +70,7 @@ def test_get_state_breakdown():
 
 def test_get_energy_breakdown():
     """Test for giving out data on the type of energy generation resources across US"""
-
+    gen_data = ela.gen_data
     solar = ela.get_energy_breakdown(gen_data, location='US').Solar[0].split('%')[0]
     hydro = ela.get_energy_breakdown(gen_data, location='US').Hydro[0].split('%')[0]
     gas = ela.get_energy_breakdown(gen_data, location='US').Gas[0].split('%')[0]
@@ -84,7 +84,7 @@ def test_get_energy_breakdown():
 
 def test_state_type():
     """Test for a state wise break down in the type of energy generation resources in US"""
-
+    gen_data = ela.gen_data
     oil_AK = ela.state_type(gen_data).Oil[0].split('%')[0]
     oil_AL = ela.state_type(gen_data).Oil[1].split('%')[0]
     hydro_WA = ela.state_type(gen_data).Hydro.WA.split('%')[0]
