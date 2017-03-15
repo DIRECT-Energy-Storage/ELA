@@ -1,9 +1,9 @@
-import ela
-
-import folium
+import os
 import pandas as pd
 import json
 import numpy as np
+import folium
+import ela
 
 # Set up color scheme.
 type_colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5', 'Nuclear': '#b9341b',
@@ -14,9 +14,11 @@ type_colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5', 'Nuclear': '#b9341b',
           'Pumped Hydro Storage': '#b9341b', 'Thermal Storage': '#55b64e'}
 
 # Load state and county boundaries.
-with open('./ela/data/us-states.json') as f:
+ela_dir, ela_filename = os.path.split(__file__)
+data_dir = os.path.join(ela_dir, "data")
+with open(os.path.join(data_dir, 'us-states.json')) as f:
     states = json.load(f)
-with open('./ela/data/us-counties.json') as f:
+with open(os.path.join(data_dir, 'us-counties.json')) as f:
     counties = json.load(f)
 
 
@@ -206,6 +208,7 @@ def facility_map(state, gen_or_stor):
     ----------
     state : str
         Two-letter abbreviation for the state to be visualized.
+        If None, all facilities are visualized (this can be slow).
     gen_or_stor : string, either 'gen' or 'stor'
         Specify whether to map generation or storage facilities.
 
@@ -217,11 +220,14 @@ def facility_map(state, gen_or_stor):
     """
 
     if gen_or_stor == 'gen':
-        state_df = ela.gen_data[ela.gen_data.state == state]
+        state_df = ela.gen_data
     elif gen_or_stor == 'stor':
-        state_df = ela.stor_data[ela.stor_data.state == state]
+        state_df = ela.stor_data
     else:
         raise ValueError("Enter either 'gen' or 'stor'.")
+
+    if state is not None:
+        state_df = state_df[state_df.state == state]
 
     f = folium.map.FeatureGroup()
     if gen_or_stor == 'gen':
