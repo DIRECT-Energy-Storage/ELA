@@ -9,8 +9,12 @@ ELA is a tool for learning about the distribution of U.S. energy generation and 
 
 ### Features
 #### List of things ELA can do
-* By giving a two letter abbreviation for each state in the United States of America, `ela` can visualize the energy generation facilities for that state.
-* By giving a two letter abbreviation for each state in the United States of America, `ela` can visualize the energy storage facilities for that state.
+##### Zipcode lookup
+* The user can enter a zip code to find the closest energy generation and storage facilities, predicted energy types based on nearby facilities, and compare the distribution of energy facilities in their state and in the U.S.
+
+##### Map Visualization
+* The user can visualize energy generation or storage facilities in any state, or the predicted energy generation or storage types across the entire U.S. based on the KNN model.
+
 
 
 An example Jupyter notebook illustrating these features is available here. (will link to demo notebook when finished)
@@ -19,13 +23,25 @@ An example Jupyter notebook illustrating these features is available here. (will
 
 ### Data
 
-ELA uses the U.S. EPA's eGRID dataset for energy generation facilities and the U.S. Department of Energy's ... for energy storage facilities. More information about both datasets can be found here. (will link to the data documentation file)
+ELA uses the U.S. EPA's eGRID dataset for energy generation facilities and the U.S. Department of Energy's data for energy storage facilities. More information about both datasets can be found here. (will link to the data documentation file)
 
 ---
 ### Installation and Compatibility
 
 ELA is designed to be used in a Jupyter notebook, and also requires the following:
 
+* pandas==0.19.2  
+* scikit-learn==0.18.1  
+* matplotlib==1.5.3  
+* numpy==1.12.0  
+* scipy==0.19.0  
+* folium==0.3.0  
+* ipywidgets==6.0  
+* IPython==5.3.0
+* json==2.0.9
+
+The visualization component of ELA does not work in Jupyter notebooks in Internet Explorer.
+=======
 * [Numpy](http://www.numpy.org)
 * [Scikit-learn](http://scikit-learn.org/stable/)
 * [Pandas](http://pandas.pydata.org)
