@@ -180,3 +180,52 @@ def plot_knn_error(k_max, weights, train_df, test_df):
     plt.xlabel('K')
     plt.ylabel('Error rate')
     plt.ylim(0, 1)
+
+
+def geojson_predict_k(geo_df, gen_train, stor_train, k):
+    """
+    Predict generation and storage types for all features in a dataframe.
+
+    Parameters
+    ----------
+    geo_df : Pandas dataframe
+        dataframe containing geographic features, with a column 'centers'
+        which has (latitude, longitude) tuples
+        This should be the output of geojson_to_df after modification by
+        geojson_centers.
+    gen_train : Pandas dataframe
+        Data to use for training the generation KNN model.
+        X coordinates are the 'lat' and 'lon' columns.
+        Y values (predicted types) are the 'type' column.
+    stor_train : Pandas dataframe
+        Data to use for training the storage KNN model.
+        X coordinates are the 'lat' and 'lon' columns.
+        Y values (predicted types) are the 'type' column.
+    k : int
+        Number of nearest-neighbors to consider in KNN model.
+
+    Returns
+    -------
+    None
+
+    Side Effects
+    ------------
+    Adds two columns 'pred_gen' and 'pred_stor' to the input geo dataframe,
+    containing the predicted energy generation and storage types for each
+    feature, based on predicted types for the latitude and longitude
+    in the 'centers' column, based on KNN with the input K.
+
+    """
+
+    gen_clf = KNeighborsClassifier(n_neighbors=k, weights='distance')
+    gen_clf.fit(gen_train[['lat', 'lon']], np.ravel(gen_train.type))
+    stor_clf = KNeighborsClassifier(n_neighbors=k, weights='distance')
+    stor_clf.fit(stor_train[['lat', 'lon']], np.ravel(stor_train.type))
+    gens = []
+    stors = []
+    for index, row in geo_df.iterrows():
+        latlon = np.asarray(row.centers).reshape(1, 2)
+        gens.append(gen_clf.predict(latlon)[0])
+        stors.append(stor_clf.predict(latlon)[0])
+    geo_df['pred_gen'] = gens
+    geo_df['pred_stor'] = stors
