@@ -7,11 +7,11 @@ import ela
 
 # Set up color scheme.
 type_colors = {'Solar': '#f6cc0a', 'Hydro': '#2B90F5', 'Nuclear': '#b9341b',
-          'Biomass': '#55b64e', 'Oil': '#ff6700', 'Coal': '#fe7b89',
-          'Gas': '#283b1a', 'Geothermal': '#d400ee', 'Wind': '#d9ffd8',
-          'Other': '#000000',
-          'Electro-mechanical': '#f6cc0a', 'Electro-chemical': '#2B90F5',
-          'Pumped Hydro Storage': '#b9341b', 'Thermal Storage': '#55b64e'}
+               'Biomass': '#55b64e', 'Oil': '#ff6700', 'Coal': '#fe7b89',
+               'Gas': '#283b1a', 'Geothermal': '#d400ee', 'Wind': '#d9ffd8',
+               'Other': '#000000',
+               'Electro-mechanical': '#f6cc0a', 'Electro-chemical': '#2B90F5',
+               'Pumped Hydro Storage': '#b9341b', 'Thermal Storage': '#55b64e'}
 
 # Load state and county boundaries.
 ela_dir, ela_filename = os.path.split(__file__)
@@ -234,14 +234,18 @@ def facility_map(state, gen_or_stor):
         for index, row in state_df.iterrows():
             tp = row.type
             f.add_child(folium.CircleMarker([row.lat, row.lon],
-                        radius=5, weight=1, fill_color=type_colors[tp],
-                        fill_opacity=1))
+                                            radius=5, weight=1,
+                                            fill_color=type_colors[tp],
+                                            fill_opacity=1))
     elif gen_or_stor == 'stor':
         for index, row in state_df.iterrows():
             tp = row.type
             f.add_child(folium.RegularPolygonMarker([row.lat, row.lon],
-                        number_of_sides=3, radius=8, rotation=30, weight=1,
-                        fill_color=type_colors[tp], fill_opacity=1))
+                                                    number_of_sides=3,
+                                                    radius=8,
+                                                    rotation=30, weight=1,
+                                                    fill_color=type_colors[tp],
+                                                    fill_opacity=1))
     return f
 
 
