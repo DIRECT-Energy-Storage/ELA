@@ -30,18 +30,9 @@ ELA uses the U.S. EPA's eGRID dataset for energy generation facilities and the U
 
 ELA is designed to be used in a Jupyter notebook, and also requires the following:
 
-* pandas==0.19.2  
-* scikit-learn==0.18.1  
-* matplotlib==1.5.3  
-* numpy==1.12.0  
-* scipy==0.19.0  
-* folium==0.3.0  
-* ipywidgets==6.0  
-* IPython==5.3.0
-* json==2.0.9
-
-The visualization component of ELA does not work in Jupyter notebooks in Internet Explorer.
-=======
+* [Ipython](http://ipython.org)
+* [Matplotlib](http://matplotlib.org)
+* [Scipy](https://scipy.org)
 * [Numpy](http://www.numpy.org)
 * [Scikit-learn](http://scikit-learn.org/stable/)
 * [Pandas](http://pandas.pydata.org)
