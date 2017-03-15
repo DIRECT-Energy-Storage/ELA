@@ -1,4 +1,3 @@
-import os
 from setuptools import setup, find_packages
 
 
@@ -10,9 +9,7 @@ setup(name='ELA',
       author='UW DIRECT students',
       license='MIT',
       packages=find_packages()
-      #install_requires=[],
-      #package_data={
+      # install_requires=[],
+      # package_data={
       #    'ela' : ['ela/data/']
-      #}
-
-)
+      )

@@ -12,6 +12,7 @@ gen_legend_img = gen_legend_file.read()
 stor_legend_file = open(os.path.join(img_dir, "Legend_Stor.png"), "rb")
 stor_legend_img = stor_legend_file.read()
 
+
 def interact_html():
     """
     A wrapper function that display the output as HTML
