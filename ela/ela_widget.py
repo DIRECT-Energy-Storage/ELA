@@ -1,3 +1,5 @@
+"""Functions for displaying widgets and interacting with the user"""
+
 import os
 from ipywidgets import widgets
 from IPython.display import display

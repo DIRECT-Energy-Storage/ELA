@@ -1,3 +1,7 @@
+"""Functions for generating and displaying maps of energy generation
+and storage facilities, and predicted energy generation and storage
+types"""
+
 import os
 import pandas as pd
 import json
