@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/DIRECT-Energy-Storage/ELA.svg?branch=master)](https://travis-ci.org/DIRECT-Energy-Storage/ELA)
 ___
-ELA is a tool for learning about the distribution of U.S. energy generation and storage facilities by energy type. The user can enter a U.S. zip code to access information about energy facilities in their area, as well as visualizing the distribution and type of energy facilities in any U.S. state.
+ELA is a tool for learning about the distribution of U.S. energy generation and storage facilities by energy type, designed to run in a Jupyter notebook. The user can enter a U.S. zip code to access information about energy facilities in their area, as well as visualizing the distribution and type of energy facilities in any U.S. state. ELA uses a K-nearest neighbors (KNN) classification model to investigate the distribution of energy facilities in the U.S.
 
 ---
 
@@ -16,8 +16,7 @@ ELA is a tool for learning about the distribution of U.S. energy generation and 
 * The user can visualize energy generation or storage facilities in any state, or the predicted energy generation or storage types across the entire U.S. based on the KNN model.
 
 
-
-An example Jupyter notebook illustrating these features is available here. (will link to demo notebook when finished)
+Sample Jupyter notebooks demonstrating ELA's [user interface](https://github.com/DIRECT-Energy-Storage/ELA/blob/master/examples/demo_ELA_interface.ipynb) and [selected functions](https://github.com/DIRECT-Energy-Storage/ELA/blob/master/examples/demo_ELA_functions.ipynb) are available.
 
 ---
 
@@ -30,7 +29,7 @@ ELA uses the U.S. EPA's eGRID dataset for energy generation facilities and the U
 
 ELA is designed to be used in a Jupyter notebook, and also requires the following:
 
-* [Ipython](http://ipython.org)
+* [IPython](http://ipython.org)
 * [Matplotlib](http://matplotlib.org)
 * [Scipy](https://scipy.org)
 * [Numpy](http://www.numpy.org)
