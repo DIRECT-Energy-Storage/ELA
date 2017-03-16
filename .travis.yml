@@ -12,12 +12,7 @@ install:
 
 # command to run tests
 script: 
-  - "nosetests"
-  - "pep8 *.py"
-  - "cd ela"
-  - "pep8 *.py"
-  - "cd ../test"
-  - "pep8 *.py"
+  - "bash script.sh"
 
 notifications:
   slack: 
