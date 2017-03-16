@@ -23,7 +23,7 @@ An example Jupyter notebook illustrating these features is available here. (will
 
 ### Data
 
-ELA uses the U.S. EPA's eGRID dataset for energy generation facilities and the U.S. Department of Energy's data for energy storage facilities. More information about both datasets can be found here. (will link to the data documentation file)
+ELA uses the U.S. EPA's eGRID dataset for energy generation facilities and the U.S. Department of Energy's data for energy storage facilities. More information about both datasets can be found [here](https://github.com/UWDIRECT/cohort1-datasets/blob/master/ELA_EnergyByLocationInAmerica/data.md).
 
 ---
 ### Installation and Compatibility
