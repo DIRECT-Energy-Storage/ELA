@@ -201,7 +201,7 @@ def prediction_map(geoj, gen_or_stor):
     return folium.GeoJson(geoj,
                           style_function=lambda feature: {
                               'fillColor': map_colors[feature['id']],
-                              'weight': 0})
+                              'fillOpacity': 0.4, 'weight': 0})
 
 
 def facility_map(state, gen_or_stor):
